@@ -1,0 +1,4969 @@
+{
+  "meta": {
+    "edition": 11,
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/",
+    "sourceVersion": "2026-11-23 01:43:36",
+    "termsCheckedAt": "2026-11-26",
+    "sourceLicense": "Export CSV public Wahapedia — usage personnel, non commercial",
+    "attribution": "Powered by Wahapedia",
+    "generatedAt": "2026-11-23 01:43:36",
+    "hashSha256": "ffa445fe84a48ebcab5367fb44589ea1a659515eb1084500b330f2852b4d8d80",
+    "countedFiles": 17
+  },
+  "sourceHashes": {
+    "Last_update.csv": "fa7e6939e26ad36e179cd3205e056a032606b52e5248361b441a6fb0efd34d21",
+    "Source.csv": "1b9d28d0d8c8c47746088e5f778afe1b4eb39a7e3ac35a7a8d4cce3a276ad9a9",
+    "Datasheets.csv": "eccaf2514028c3f58398d8fe6422712d86a0569c7ce6f03a79eeafc7c086bc51",
+    "Datasheets_models.csv": "658751b37f052e33497802d4152186e4e6dc439fe1e721639756ef5ca25e110e",
+    "Datasheets_wargear.csv": "6f7624852f0fd2b0f3d04f5a6a31b5e4ec3ca2ad4afa102ec8c90530dc7345bd",
+    "Datasheets_abilities.csv": "a9139d3809ca81884839dad900c653230a25cdada26f86b400b3ab91ddbabaff",
+    "Datasheets_keywords.csv": "b1afc21a2a3a715e013b067a87eb0ef70650721e43df78986ed7dca4653899e0",
+    "Datasheets_options.csv": "799a231be8decde46a3b64f4ca857c2ac49ba81f98c40bcc3bb466f700f79392",
+    "Datasheets_models_cost.csv": "293f4cd496181a8b939d50d7302dfed8c8fa74cebe5427e5455acacd19877170",
+    "Datasheets_leader.csv": "c58e5caca2c6fb489e17eafce8156bef4ff3584bc1ab24151506cfa9d808d80a",
+    "Datasheets_unit_composition.csv": "e808801518e8aa8f8f4bdcd1b57c3dc336ae06da8e2ab2268826da08b381820e",
+    "Stratagems.csv": "ec47cc2cbc33328e3f1b61426005dd063b4f07e64a45d4748163d5fec4b2b802",
+    "Detachments.csv": "d323c5cc7e025ba8c3c004805fedf1adfbf0126305a770e448287d6280b4c536",
+    "Detachment_abilities.csv": "e95380c00e4d993935f4ef5dcd09c93f5d5548aa07d28151f68652c2b87b0e1c",
+    "Enhancements.csv": "946d6cdf8f56376df3fdf894d88c6f33aa6b96e68478b89da25ae57ba9465092",
+    "Abilities.csv": "c1f23f8f8b150574aa51912fdde1e727ba8e25f986e55bb407f1fd1e3f2676fe",
+    "Detachments_chapter_dp.csv": "d99fc6a76bd7f466a9bba025d31874f01066cb0fa8e3ad81d0e17c4b5d0a99e6"
+  },
+  "detachments": [
+    {
+      "id": "000000750",
+      "name": "Gladius Task Force",
+      "faction": "SM",
+      "dp": 3,
+      "forceDisposition": "Priority Assets, Take and Hold",
+      "legend": "THE PERFECTLY BALANCED BLADE OF A GLADIUS TASK FORCE CAN SLAY ANY FOE",
+      "type": "",
+      "rules": [
+        {
+          "name": "Codex Discipline",
+          "legend": "Deployed as a mutually supportive strike force that epitomises the flexibility and martial wisdom of the Codex Astartes, Space Marines have the answer to any strategic or tactical challenge.",
+          "description": "You can select one combat doctrine one additional time per battle."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000008353002",
+          "name": "Standard of the Emperor Ascendant",
+          "cost": 25,
+          "description": "Ancient model only. This model has:\n• +1 OC and Ld.\n• Feel No Pain 5+.\n• The following ability:\n\nAncient Exhortation (Once per battle, per army): When this unit is selected to fight, you can use this ability. If you do, this unit’s melee attacks have +1 A until the end of the phase.",
+          "supportLeader": false
+        },
+        {
+          "id": "000008353003",
+          "name": "Laurels of Triumph",
+          "cost": 20,
+          "description": "ADEPTUS ASTARTES model only. This model’s melee attacks have:\n• +1 S and AP. \n• Or: If the assault doctrine is active for this unit, +2 S and AP.",
+          "supportLeader": false
+        },
+        {
+          "id": "000008353004",
+          "name": "Adept of the Codex",
+          "cost": 20,
+          "description": "Captain model only. The tactical doctrine is active for this unit in addition to any other combat doctrine.",
+          "supportLeader": false
+        },
+        {
+          "id": "000008353005",
+          "name": "Artificer Armour",
+          "cost": 15,
+          "description": "ADEPTUS ASTARTES model only. This model has:\n• 2+ Sv.\n• Feel No Pain 5+.",
+          "supportLeader": false
+        }
+      ],
+      "stratagems": [
+        {
+          "id": "000008352006",
+          "name": "STORM OF DEVASTATION",
+          "cp": 1,
+          "type": "Gladius Task Force Stratagem",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly ADEPTUS ASTARTES unit is selected to shoot.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Your unit’s ranged attacks have [IGNORES COVER].",
+          "text": "WHEN: Your Shooting phase, when a friendly ADEPTUS ASTARTES unit is selected to shoot.\n\nTARGET: That ADEPTUS ASTARTES unit.\n\nEFFECT: Your unit’s ranged attacks have [IGNORES COVER]."
+        },
+        {
+          "id": "000008352007",
+          "name": "RESPONSIVE TACTICS",
+          "cp": 1,
+          "type": "Gladius Task Force Stratagem",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Adeptus Astartes Infantry/Mounted unit.",
+          "target": "That ADEPTUS ASTARTES INFANTRY/MOUNTED unit.",
+          "effect": "Your unit can make a normal move of up to D6\".",
+          "text": "WHEN: Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Adeptus Astartes Infantry/Mounted unit.\n\nTARGET: That ADEPTUS ASTARTES INFANTRY/MOUNTED unit.\n\nEFFECT: Your unit can make a normal move of up to D6\"."
+        },
+        {
+          "id": "000008352003",
+          "name": "A WORTHY DEATH",
+          "cp": 1,
+          "type": "Gladius Task Force Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6:\n• On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.",
+          "text": "WHEN: Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.\n\nTARGET: That ADEPTUS ASTARTES unit.\n\nEFFECT: When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6:\n• On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
+        },
+        {
+          "id": "000008352002",
+          "name": "ARMOUR OF CONTEMPT",
+          "cp": 1,
+          "type": "Gladius Task Force Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Attacks that target your unit have -1",
+          "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.\n\nTARGET: That ADEPTUS ASTARTES unit.\n\nEFFECT: Attacks that target your unit have -1 AP until that enemy unit has attacked."
+        },
+        {
+          "id": "000008352004",
+          "name": "MIGHT OF ANGELS",
+          "cp": 1,
+          "type": "Gladius Task Force Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when a friendly ADEPTUS ASTARTES unit is selected to fight.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Your unit’s melee attacks have [Lance].",
+          "text": "WHEN: Fight phase, when a friendly ADEPTUS ASTARTES unit is selected to fight.\n\nTARGET: That ADEPTUS ASTARTES unit.\n\nEFFECT: Your unit’s melee attacks have [Lance]."
+        },
+        {
+          "id": "000008352005",
+          "name": "ADAPTIVE STRATEGY",
+          "cp": 1,
+          "type": "Gladius Task Force Stratagem",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Your Command phase.",
+          "target": "One friendly ADEPTUS ASTARTES unit.",
+          "effect": "Select one combat doctrine. That",
+          "text": "WHEN: Your Command phase.\n\nTARGET: One friendly ADEPTUS ASTARTES unit.\n\nEFFECT: Select one combat doctrine. That combat doctrine is active for your unit until the start of your next Command phase."
+        }
+      ],
+      "chapterDp": []
+    },
+    {
+      "id": "000000794",
+      "name": "Ironstorm Spearhead",
+      "faction": "SM",
+      "dp": 1,
+      "forceDisposition": "Purge the Foe",
+      "legend": "SPACE MARINE TANKS DEPLOY AT SQUADRON STRENGTH TO PUNCH THROUGH ENEMY LINES",
+      "type": "",
+      "rules": [
+        {
+          "name": "Ironstorm Auto-targeters",
+          "legend": "Space Marine armoured formations rapidly share cogitated targeting data to augment their already superb marksmanship and reaction times.",
+          "description": "Friendly Adeptus Astartes Vehicle units’ (excluding walker units) ranged attacks can:\n• Re-roll one hit roll.\n• Re-roll one wound roll."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000008478002",
+          "name": "Redoubtable Machine Spirit",
+          "cost": 25,
+          "description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units). This unit:\n• Has 5+ InSv.\n• At the end of your Command phase, heals 1 wound.",
+          "supportLeader": false
+        },
+        {
+          "id": "000008478003",
+          "name": "Gunnery Honours",
+          "cost": 15,
+          "description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units). This unit’s ranged attacks have [Heavy].",
+          "supportLeader": false
+        }
+      ],
+      "stratagems": [
+        {
+          "id": "000008479003",
+          "name": "MIGHT OF THE MACHINE SPIRIT",
+          "cp": 1,
+          "type": "Ironstorm Spearhead Stratagem",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Your Command phase.",
+          "target": "One friendly Adeptus Astartes Vehicle unit (excluding Dedicated Transport/Fly/Walker units).",
+          "effect": "Until the start of your next Command phase, your unit can ignore modifiers to your unit’s:\n•",
+          "text": "WHEN: Your Command phase.\n\nTARGET: One friendly Adeptus Astartes Vehicle unit (excluding Dedicated Transport/Fly/Walker units).\n\nEFFECT: Until the start of your next Command phase, your unit can ignore modifiers to your unit’s:\n• M.\n• BS.\n• Hit rolls and wound rolls."
+        },
+        {
+          "id": "000008479002",
+          "name": "LAYERED CERAMITE",
+          "cp": 1,
+          "type": "Ironstorm Spearhead Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, when a friendly Adeptus Astartes Vehicle unit suffers a mortal wound.",
+          "target": "That ADEPTUS ASTARTES VEHICLE unit.",
+          "effect": "Your unit has Feel No Pain 5+ against",
+          "text": "WHEN: Any phase, when a friendly Adeptus Astartes Vehicle unit suffers a mortal wound.\n\nTARGET: That ADEPTUS ASTARTES VEHICLE unit.\n\nEFFECT: Your unit has Feel No Pain 5+ against mortal wounds."
+        },
+        {
+          "id": "000008479004",
+          "name": "HEADHUNTER DOCTRINE",
+          "cp": 1,
+          "type": "Ironstorm Spearhead Stratagem",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly Adeptus Astartes Vehicle unit (excluding Dedicated Transport/Fly/Walker units) is selected to shoot.",
+          "target": "That ADEPTUS ASTARTES VEHICLE unit.",
+          "effect": "Your unit’s ranged attacks have [Lethal Hits: Monster/Vehicle].",
+          "text": "WHEN: Your Shooting phase, when a friendly Adeptus Astartes Vehicle unit (excluding Dedicated Transport/Fly/Walker units) is selected to shoot.\n\nTARGET: That ADEPTUS ASTARTES VEHICLE unit.\n\nEFFECT: Your unit’s ranged attacks have [Lethal Hits: Monster/Vehicle]."
+        }
+      ],
+      "chapterDp": []
+    },
+    {
+      "id": "000000796",
+      "name": "Stormlance Task Force",
+      "faction": "SM",
+      "dp": 1,
+      "forceDisposition": "Reconnaissance",
+      "legend": "SPACE MARINE BIKE SQUADRONS, SPEEDERS AND LIGHT ARMOUR RACE INTO BATTLE",
+      "type": "",
+      "rules": [
+        {
+          "name": "Lightning-fast Strike",
+          "legend": "Racing into battle at breakneck speeds, Space Marine fast-attack squadrons often punch into the enemy lines before the foe even realises their peril.",
+          "description": "Friendly Adeptus Astartes Mounted/Speeder units have +2\" M."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000008486002",
+          "name": "Supercharged Engines",
+          "cost": 10,
+          "description": "Adeptus Astartes Mounted unit only. This unit can re-roll advance rolls.",
+          "supportLeader": false
+        },
+        {
+          "id": "000008486003",
+          "name": "Auspex Triangulation Shrines",
+          "cost": 10,
+          "description": "Adeptus Astartes speeder unit only. At the start of your Shooting phase, select one visible enemy unit within 12\" of this unit. That enemy unit is spotted:\n• While a unit is spotted, that unit has +3\" detection range.",
+          "supportLeader": false
+        }
+      ],
+      "stratagems": [
+        {
+          "id": "000008487002",
+          "name": "WIND-SWIFT EVASION",
+          "cp": 1,
+          "type": "Stormlance Task Force Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "End of the Fight phase.",
+          "target": "One friendly Adeptus Astartes Mounted unit that was eligible to fight this phase.",
+          "effect": "• If your unit is unengaged, your unit can make a normal move.\n• Or: If your unit is engaged, your unit can make a fall-back move.",
+          "text": "WHEN: End of the Fight phase.\n\nTARGET: One friendly Adeptus Astartes Mounted unit that was eligible to fight this phase.\n\nEFFECT:\n• If your unit is unengaged, your unit can make a normal move.\n• Or: If your unit is engaged, your unit can make a fall-back move."
+        },
+        {
+          "id": "000008487003",
+          "name": "SUDDEN ONSLAUGHT",
+          "cp": 1,
+          "type": "Stormlance Task Force Stratagem",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, when a friendly Adeptus Astartes Mounted/Speeder unit is selected to make an advance move.",
+          "target": "That ADEPTUS ASTARTES MOUNTED/SPEEDER unit.",
+          "effect": "Your unit can change its advance rolls to a 6.",
+          "text": "WHEN: Your Movement phase, when a friendly Adeptus Astartes Mounted/Speeder unit is selected to make an advance move.\n\nTARGET: That ADEPTUS ASTARTES MOUNTED/SPEEDER unit.\n\nEFFECT: Your unit can change its advance rolls to a 6."
+        },
+        {
+          "id": "000008487004",
+          "name": "HURTLING TARGETS",
+          "cp": 1,
+          "type": "Stormlance Task Force Stratagem",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly Adeptus Astartes Mounted/Speeder unit.",
+          "target": "That ADEPTUS ASTARTES MOUNTED/SPEEDER unit.",
+          "effect": "Ranged attacks that target your unit have -1 to hit rolls.",
+          "text": "WHEN: Your opponent’s Shooting phase, when an enemy unit targets a friendly Adeptus Astartes Mounted/Speeder unit.\n\nTARGET: That ADEPTUS ASTARTES MOUNTED/SPEEDER unit.\n\nEFFECT: Ranged attacks that target your unit have -1 to hit rolls."
+        }
+      ],
+      "chapterDp": [
+        {
+          "keyword": "Black Templars",
+          "dp": 2
+        },
+        {
+          "keyword": "Blood Angels",
+          "dp": 2
+        },
+        {
+          "keyword": "Deathwatch",
+          "dp": 2
+        }
+      ]
+    },
+    {
+      "id": "000001205",
+      "name": "Darkflight Pursuit",
+      "faction": "DA",
+      "dp": 1,
+      "forceDisposition": "Reconnaissance",
+      "legend": "BLACK‑ARMOURED COMBAT CRAFT HUNT THEIR PREY UPON WINGS OF DARK FURY",
+      "type": "",
+      "rules": [
+        {
+          "name": "Black-winged Vigilance",
+          "legend": "The anti-grav skimmers and combat aircraft of the Ravenwing bristle not only with potent weapons but also with powerful augurs and trackers, whose sleepless machine spirits are as vigilant as the black-armoured battle-brothers.",
+          "description": "Friendly Ravenwing Fly units’ ranged attacks have [IGNORES COVER].\n\nFriendly Outrider squad units have BATTLELINE.\n\nRestrictions: Your army can include Dark Angels units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000011095002",
+          "name": "Thundercowl Turbines",
+          "cost": 15,
+          "description": "Ravenwing Fly/Ravenwing Mounted unit only. In your first Movement phase, this unit can make an ingress move.",
+          "supportLeader": false
+        },
+        {
+          "id": "000011095003",
+          "name": "Nightforged Battery",
+          "cost": 10,
+          "description": "Land Speeder Vengeance unit only. This unit can re-roll:\n• Rolls to determine the A of a weapon.\n• Hazard rolls.",
+          "supportLeader": false
+        }
+      ],
+      "stratagems": [
+        {
+          "id": "000011096004",
+          "name": "WINGS OF SHADOW",
+          "cp": 1,
+          "type": "Darkflight Pursuit Stratagem",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly Ravenwing Fly/Mounted unit.",
+          "target": "That RAVENWING FLY/MOUNTED unit.",
+          "effect": "Your unit has Stealth.",
+          "text": "WHEN: Your opponent’s Shooting phase, when an enemy unit targets a friendly Ravenwing Fly/Mounted unit.\n\nTARGET: That RAVENWING FLY/MOUNTED unit.\n\nEFFECT: Your unit has Stealth."
+        },
+        {
+          "id": "000011096002",
+          "name": "SKYBORNE SURVEILLANCE",
+          "cp": 1,
+          "type": "Darkflight Pursuit Stratagem",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly Ravenwing Fly unit has shot.",
+          "target": "That RAVENWING FLY unit.",
+          "effect": "Visible enemy units within 6\" of your unit have +3\" detection range.",
+          "text": "WHEN: Your Shooting phase, when a friendly Ravenwing Fly unit has shot.\n\nTARGET: That RAVENWING FLY unit.\n\nEFFECT: Visible enemy units within 6\" of your unit have +3\" detection range."
+        },
+        {
+          "id": "000011096003",
+          "name": "WE ARE VENGEANCE",
+          "cp": 1,
+          "type": "Darkflight Pursuit Stratagem",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, when an enemy unit that targeted a friendly unengaged Ravenwing Fly unit has shot.",
+          "target": "That RAVENWING FLY unit.",
+          "effect": "Your unit can make a normal move of up to D3+3\".",
+          "text": "WHEN: Your opponent’s Shooting phase, when an enemy unit that targeted a friendly unengaged Ravenwing Fly unit has shot.\n\nTARGET: That RAVENWING FLY unit.\n\nEFFECT: Your unit can make a normal move of up to D3+3\"."
+        }
+      ],
+      "chapterDp": []
+    },
+    {
+      "id": "000001233",
+      "name": "Gauntlet Task Force",
+      "faction": "SM",
+      "dp": 1,
+      "forceDisposition": "Reconnaissance",
+      "legend": "SQUADS OF BATTLE-BROTHERS RACE INTO BATTLE ABOARD INDOMITABLE ARMOURED TRANSPORTS",
+      "type": "",
+      "rules": [
+        {
+          "name": "Combined Deployment",
+          "legend": "Space Marine crews train to provide armoured fire support to their debarked passengers while on the attack.",
+          "description": "In your Shooting phase, when a friendly Adeptus Astartes Transport unit has shot, you can select one enemy unit hit by those attacks. That enemy unit is assailed until the end of the turn:\n• While a unit is assailed, when an ADEPTUS ASTARTES unit that disembarked this turn targets that unit, those attacks have [Sustained Hits 1]."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000011184002",
+          "name": "Linebreaker Onslaught",
+          "cost": 20,
+          "description": "Adeptus Astartes Infantry model only. If this unit disembarked this turn:\n• This unit can re-roll charge rolls.\n• Enemy units cannot target this unit with snap shooting attacks.",
+          "supportLeader": false
+        },
+        {
+          "id": "000011184003",
+          "name": "Damocles-class Uplink",
+          "cost": 15,
+          "description": "Captain model only. In your Movement phase, if this unit is embarked within a Transport unit, you can select one friendly Adeptus Astartes Infantry unit within 6\" of that TRANSPORT unit and select one combat doctrine. That combat doctrine is active for that INFANTRY unit.",
+          "supportLeader": false
+        }
+      ],
+      "stratagems": [
+        {
+          "id": "000011185003",
+          "name": "DUTY IS NEVER DONE",
+          "cp": 1,
+          "type": "Gauntlet Task Force Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "End of the Fight phase.",
+          "target": "One friendly unengaged Adeptus Astartes Infantry unit that was eligible to fight this phase, is wholly within 6\" of a friendly Transport unit, and is eligible to embark within that TRANSPORT unit.",
+          "effect": "Your unit embarks within that TRANSPORT unit.",
+          "text": "WHEN: End of the Fight phase.\n\nTARGET: One friendly unengaged Adeptus Astartes Infantry unit that was eligible to fight this phase, is wholly within 6\" of a friendly Transport unit, and is eligible to embark within that TRANSPORT unit.\n\nEFFECT: Your unit embarks within that TRANSPORT unit."
+        },
+        {
+          "id": "000011185004",
+          "name": "STORM AND SECURE",
+          "cp": 1,
+          "type": "Gauntlet Task Force Stratagem",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "End of your Movement phase.",
+          "target": "One friendly Adeptus Astartes Transport unit that has an Adeptus Astartes Battleline unit embarked within it.",
+          "effect": "Select one objective your unit is controlling. That",
+          "text": "WHEN: End of your Movement phase.\n\nTARGET: One friendly Adeptus Astartes Transport unit that has an Adeptus Astartes Battleline unit embarked within it.\n\nEFFECT: Select one objective your unit is controlling. That objective is secured."
+        },
+        {
+          "id": "000011185002",
+          "name": "AGGRESSIVE DISEMBARKATION",
+          "cp": 1,
+          "type": "Gauntlet Task Force Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, when a friendly ADEPTUS ASTARTES unit embarked within a Transport is selected to move.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "While making that move, each model in your unit can be set up within the",
+          "text": "WHEN: Any phase, when a friendly ADEPTUS ASTARTES unit embarked within a Transport is selected to move.\n\nTARGET: That ADEPTUS ASTARTES unit.\n\nEFFECT: While making that move, each model in your unit can be set up within the set-up distance of that TRANSPORT.\n\nThis allows you to set up your unit within the set-up distance of your TRANSPORT, instead of wholly within that distance."
+        }
+      ],
+      "chapterDp": []
+    },
+    {
+      "id": "000001234",
+      "name": "Phobos Shadow Force",
+      "faction": "SM",
+      "dp": 1,
+      "forceDisposition": "Disruption",
+      "legend": "PHOBOS-ARMOURED STEALTH ADEPTS HUNT THEIR ENEMIES UNSEEN",
+      "type": "",
+      "rules": [
+        {
+          "name": "Shadow Masters",
+          "legend": "Holding to the shadows and choosing victims with care, Phobos-armoured Astartes winnow the enemy ranks without ever revealing their positions.",
+          "description": "When a friendly Phobos or Scout SQUAD unit has shot:\n• Those attacks do not prevent that unit from being hidden.\n• Or: That unit can make a normal move of up to D6\". That unit is not eligible to declare a charge until the end of the turn."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000011188002",
+          "name": "Venator Omni-auspex",
+          "cost": 15,
+          "description": "Phobos model only. This unit’s attacks that target a hidden unit can:\n• Re-roll wound rolls of 1.\n• Or: If the assault doctrine is active for this unit, re-roll wound rolls of 1 and 2.",
+          "supportLeader": false
+        },
+        {
+          "id": "000011188003",
+          "name": "Execute and Redeploy",
+          "cost": 25,
+          "description": "Phobos model only. In your Shooting phase, after this unit has shot, if this unit is unengaged, this unit can make a normal move of up to 6\". If it does, this unit is not eligible to declare a charge until the end of the turn.",
+          "supportLeader": false
+        }
+      ],
+      "stratagems": [
+        {
+          "id": "000011189004",
+          "name": "TACTICAL WITHDRAWAL",
+          "cp": 1,
+          "type": "Phobos Shadow Force Stratagem",
+          "turn": "Opponent’s turn",
+          "phase": "Fight phase",
+          "when": "End of your opponent’s Fight phase.",
+          "target": "One friendly unengaged Phobos/Scout SQUAD unit.",
+          "effect": "Place your unit in strategic reserves.",
+          "text": "WHEN: End of your opponent’s Fight phase.\n\nTARGET: One friendly unengaged Phobos/Scout SQUAD unit.\n\nEFFECT: Place your unit in strategic reserves."
+        },
+        {
+          "id": "000011189003",
+          "name": "MORTIS SNARES",
+          "cp": 1,
+          "type": "Phobos Shadow Force Stratagem",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "End of your Movement phase.",
+          "target": "One friendly unengaged Phobos/Scout Squad unit.",
+          "effect": "If your unit is controlling an objective, that",
+          "text": "WHEN: End of your Movement phase.\n\nTARGET: One friendly unengaged Phobos/Scout Squad unit.\n\nEFFECT: If your unit is controlling an objective, that objective is snared. While an objective is snared, when an enemy unit ends a move within range of that objective, roll one D6:\n• On a 2+, that enemy unit suffers D6 mortal wounds. \n• That objective is no longer snared."
+        },
+        {
+          "id": "000011189002",
+          "name": "STRIKE FROM THE SHADOWS",
+          "cp": 1,
+          "type": "Phobos Shadow Force Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase, when a friendly hidden Phobos unit is selected to attack.",
+          "target": "That PHOBOS unit.",
+          "effect": "Your unit’s attacks have:\n• +1",
+          "text": "WHEN: Your Shooting phase or the Fight phase, when a friendly hidden Phobos unit is selected to attack.\n\nTARGET: That PHOBOS unit.\n\nEFFECT: Your unit’s attacks have:\n• +1 S.\n• [Lethal Hits]."
+        }
+      ],
+      "chapterDp": []
+    },
+    {
+      "id": "000001235",
+      "name": "Tacticus Attack Force",
+      "faction": "SM",
+      "dp": 1,
+      "forceDisposition": "Take and Hold",
+      "legend": "CHARGING INTO BATTLE, TACTICUS-ARMOURED BATTLE-BROTHERS CUT A BLOODY PATH THROUGH THE FOE",
+      "type": "",
+      "rules": [
+        {
+          "name": "Wrath of the Chapter",
+          "legend": "When the Space Marines are roused to true martial fury, they bring their vengeance to their adversaries with the inescapable speed of a lightning strike.",
+          "description": "Friendly Tacticus units can re-roll advance rolls."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000011192002",
+          "name": "Martial Paragon",
+          "cost": 10,
+          "description": "Tacticus model only. This unit’s attacks can:\n• Re-roll one hit roll.\n• Re-roll one wound roll.",
+          "supportLeader": false
+        },
+        {
+          "id": "000011192003",
+          "name": "Spearpoint War Leader",
+          "cost": 15,
+          "description": "Tacticus model only. This unit has Scouts 6\".",
+          "supportLeader": false
+        }
+      ],
+      "stratagems": [
+        {
+          "id": "000011193004",
+          "name": "TACTICAL FOCUS",
+          "cp": 1,
+          "type": "Tacticus Attack Force Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when a friendly Tacticus unit is selected to make a consolidation move.",
+          "target": "That TACTICUS unit.",
+          "effect": "When making that",
+          "text": "WHEN: Fight phase, when a friendly Tacticus unit is selected to make a consolidation move.\n\nTARGET: That TACTICUS unit.\n\nEFFECT: When making that consolidation move, your unit can move up to D3+3\"."
+        },
+        {
+          "id": "000011193002",
+          "name": "RELENTLESS ASSAULT",
+          "cp": 1,
+          "type": "Tacticus Attack Force Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase, when a friendly Tacticus unit is selected to attack.",
+          "target": "That TACTICUS unit.",
+          "effect": "Your unit’s attacks have:\n• [Sustained Hits 1: non-Monster/Vehicle].\n• Or: [Lethal Hits: Monster/Vehicle].",
+          "text": "WHEN: Your Shooting phase or the Fight phase, when a friendly Tacticus unit is selected to attack.\n\nTARGET: That TACTICUS unit.\n\nEFFECT: Your unit’s attacks have:\n• [Sustained Hits 1: non-Monster/Vehicle].\n• Or: [Lethal Hits: Monster/Vehicle]."
+        },
+        {
+          "id": "000011193003",
+          "name": "TRANSHUMAN SWIFTNESS",
+          "cp": 1,
+          "type": "Tacticus Attack Force Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when an enemy unit has fought.",
+          "target": "One friendly Tacticus unit that is within range of an objective and is eligible to fight.",
+          "effect": "Your unit has Fights First and must be the next unit you select to fight.",
+          "text": "WHEN: Fight phase, when an enemy unit has fought.\n\nTARGET: One friendly Tacticus unit that is within range of an objective and is eligible to fight.\n\nEFFECT: Your unit has Fights First and must be the next unit you select to fight."
+        }
+      ],
+      "chapterDp": []
+    },
+    {
+      "id": "000001236",
+      "name": "Phobos Shock Force",
+      "faction": "SM",
+      "dp": 1,
+      "forceDisposition": "Disruption",
+      "legend": "EXPLODING FROM THE SHADOWS, PHOBOS-ARMOURED KILLERS CATCH THE FOE IN A BLOODY AMBUSH",
+      "type": "",
+      "rules": [
+        {
+          "name": "Vanguard Ambushers",
+          "legend": "Few experiences are so terrifying for Mankind’s enemies as finding themselves the victims of Phobos-armoured ambushers.",
+          "description": "At the end of your Movement phase, if a friendly Phobos unit is hidden, that unit’s attacks can re-roll wound rolls of 1 until the end of the turn."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000011196002",
+          "name": "Seal of Shrouding",
+          "cost": 15,
+          "description": "Phobos model only. Enemy units cannot target this unit with snap shooting attacks.",
+          "supportLeader": false
+        },
+        {
+          "id": "000011196003",
+          "name": "Venator Omni-auspex",
+          "cost": 15,
+          "description": "Phobos model only. This unit’s attacks that target a hidden unit can:\n• Re-roll wound rolls of 1.\n• Or: If the assault doctrine is active for this unit, re-roll wound rolls of 1-2.",
+          "supportLeader": false
+        }
+      ],
+      "stratagems": [
+        {
+          "id": "000011197002",
+          "name": "STRIKE FROM THE SHADOWS",
+          "cp": 1,
+          "type": "Phobos Shock Force Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase, when a friendly hidden Phobos unit is selected to attack.",
+          "target": "That PHOBOS unit.",
+          "effect": "Your unit’s attacks have:\n• +1",
+          "text": "WHEN: Your Shooting phase or the Fight phase, when a friendly hidden Phobos unit is selected to attack.\n\nTARGET: That PHOBOS unit.\n\nEFFECT: Your unit’s attacks have:\n• +1 S.\n• [Lethal Hits]."
+        },
+        {
+          "id": "000011197003",
+          "name": "TRANSHUMAN REACTIONS",
+          "cp": 1,
+          "type": "Phobos Shock Force Stratagem",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Phobos unit.",
+          "target": "That PHOBOS unit.",
+          "effect": "Your unit can make a normal move of:\n• Up to D6\".\n• Or: If the tactical doctrine is active for your unit, up to 6\".",
+          "text": "WHEN: Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Phobos unit.\n\nTARGET: That PHOBOS unit.\n\nEFFECT: Your unit can make a normal move of:\n• Up to D6\".\n• Or: If the tactical doctrine is active for your unit, up to 6\"."
+        },
+        {
+          "id": "000011197004",
+          "name": "UMBRAL EVASION",
+          "cp": 1,
+          "type": "Phobos Shock Force Stratagem",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly Phobos unit.",
+          "target": "That PHOBOS unit.",
+          "effect": "Ranged attacks that target your unit have -1 to hit rolls.",
+          "text": "WHEN: Your opponent’s Shooting phase, when an enemy unit targets a friendly Phobos unit.\n\nTARGET: That PHOBOS unit.\n\nEFFECT: Ranged attacks that target your unit have -1 to hit rolls."
+        }
+      ],
+      "chapterDp": []
+    },
+    {
+      "id": "000001237",
+      "name": "Terminator Storm Force",
+      "faction": "SM",
+      "dp": 1,
+      "forceDisposition": "Priority Assets",
+      "legend": "TERMINATOR-ARMOURED FIRST COMPANY VETERANS UNLEASH THEIR MIGHT UPON THE BATTLEFIELD",
+      "type": "",
+      "rules": [
+        {
+          "name": "Death Blow",
+          "legend": "Veterans of a hundred decapitating strikes, these First Company warriors know that if they land their first blow with sufficiently furious momentum, they will need no second.",
+          "description": "Friendly Adeptus Astartes Terminator units have +1 to charge rolls."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000011200002",
+          "name": "Champion of the First Company",
+          "cost": 20,
+          "description": "Adeptus Astartes Terminator model only. This unit’s melee attacks have [Lethal Hits].",
+          "supportLeader": false
+        },
+        {
+          "id": "000011200003",
+          "name": "Corporeum Reliquary",
+          "cost": 25,
+          "description": "Adeptus Astartes Terminator model only. In your first Movement phase, this unit can make an ingress move.",
+          "supportLeader": false
+        }
+      ],
+      "stratagems": [
+        {
+          "id": "000011201002",
+          "name": "TACTICAL DREADNOUGHT FORTITUDE",
+          "cp": 2,
+          "type": "Terminator Storm Force Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly adeptus astartes Terminator unit.",
+          "target": "That ADEPTUS ASTARTES TERMINATOR unit.",
+          "effect": "Attacks that target your unit have -1",
+          "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly adeptus astartes Terminator unit.\n\nTARGET: That ADEPTUS ASTARTES TERMINATOR unit.\n\nEFFECT: Attacks that target your unit have -1 D until that enemy unit has attacked."
+        },
+        {
+          "id": "000011201003",
+          "name": "MERCILESS VETERANS",
+          "cp": 1,
+          "type": "Terminator Storm Force Stratagem",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly adeptus astartes Terminator unit is selected to shoot.",
+          "target": "That ADEPTUS ASTARTES TERMINATOR unit.",
+          "effect": "Your unit’s ranged attacks have:\n• [Lethal Hits].\n• [Sustained Hits 1].",
+          "text": "WHEN: Your Shooting phase, when a friendly adeptus astartes Terminator unit is selected to shoot.\n\nTARGET: That ADEPTUS ASTARTES TERMINATOR unit.\n\nEFFECT: Your unit’s ranged attacks have:\n• [Lethal Hits].\n• [Sustained Hits 1]."
+        },
+        {
+          "id": "000011201004",
+          "name": "GUNSHIP EXTRACTION",
+          "cp": 1,
+          "type": "Terminator Storm Force Stratagem",
+          "turn": "Opponent’s turn",
+          "phase": "Fight phase",
+          "when": "End of your opponent’s Fight phase.",
+          "target": "One friendly unengaged adeptus astartes terminator unit.",
+          "effect": "Place your unit in strategic reserves.",
+          "text": "WHEN: End of your opponent’s Fight phase.\n\nTARGET: One friendly unengaged adeptus astartes terminator unit.\n\nEFFECT: Place your unit in strategic reserves."
+        }
+      ],
+      "chapterDp": []
+    },
+    {
+      "id": "000001238",
+      "name": "Assault Brethren",
+      "faction": "SM",
+      "dp": 1,
+      "forceDisposition": "Take and Hold",
+      "legend": "THE CHAPTER’S CLOSE-COMBAT SPECIALISTS TEAR INTO THE FOE WITH LETHAL INTENT",
+      "type": "",
+      "rules": [
+        {
+          "name": "Assault Mastery",
+          "legend": "Space Marines who specialise in close-quarters brutality truly embody their sobriquet ‘Angels of Death’.",
+          "description": "You can select the assault doctrine one additional time per battle."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000011204002",
+          "name": "Imperium's Sword",
+          "cost": 20,
+          "description": "ADEPTUS ASTARTES model only. This model has the following weapon:",
+          "supportLeader": false
+        },
+        {
+          "id": "000011204003",
+          "name": "Furious Assault",
+          "cost": 10,
+          "description": "Adeptus Astartes Infantry unit only. This unit’s melee attacks have [Sustained Hits 1: non-Monster/Vehicle].",
+          "supportLeader": false
+        }
+      ],
+      "stratagems": [
+        {
+          "id": "000011205002",
+          "name": "ARMOUR OF CONTEMPT",
+          "cp": 1,
+          "type": "Assault Brethren Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Attacks that target your unit have -1",
+          "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.\n\nTARGET: That ADEPTUS ASTARTES unit.\n\nEFFECT: Attacks that target your unit have -1 AP until that enemy unit has attacked."
+        },
+        {
+          "id": "000011205004",
+          "name": "DUTY IN DEATH",
+          "cp": 1,
+          "type": "Assault Brethren Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6, with +1 to that roll if the assault doctrine is active for your unit:\n• On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.",
+          "text": "WHEN: Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.\n\nTARGET: That ADEPTUS ASTARTES unit.\n\nEFFECT: When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6, with +1 to that roll if the assault doctrine is active for your unit:\n• On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
+        },
+        {
+          "id": "000011205003",
+          "name": "GENE-WROUGHT MIGHT",
+          "cp": 1,
+          "type": "Assault Brethren Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when a friendly ADEPTUS ASTARTES unit is selected to fight.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Your unit’s melee attacks have:\n• [Lance].\n• Or: If the assault doctrine is active for your unit, [Lance] and +1",
+          "text": "WHEN: Fight phase, when a friendly ADEPTUS ASTARTES unit is selected to fight.\n\nTARGET: That ADEPTUS ASTARTES unit.\n\nEFFECT: Your unit’s melee attacks have:\n• [Lance].\n• Or: If the assault doctrine is active for your unit, [Lance] and +1 AP."
+        }
+      ],
+      "chapterDp": []
+    },
+    {
+      "id": "000001239",
+      "name": "Gravis Linebreaker Force",
+      "faction": "SM",
+      "dp": 1,
+      "forceDisposition": "Take and Hold",
+      "legend": "RELENTLESS AND UNSTOPPABLE, GRAVIS-ARMOURED WARRIORS MARCH OUT ON THE ATTACK",
+      "type": "",
+      "rules": [
+        {
+          "name": "Walking Fortress",
+          "legend": "With their plan in motion and targets designated, Gravis-armoured warriors stride unstoppably into battle as they lay down withering hails of firepower.",
+          "description": "In a turn a friendly Gravis unit made a normal move, that unit’s ranged attacks:\n• Do not have [Heavy].\n• Have +1 to hit rolls."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000011208002",
+          "name": "Indefatigable Fortitude",
+          "cost": 20,
+          "description": "Gravis model only. Attacks that target this unit with a S greater than this unit’s T have -1 to wound rolls.",
+          "supportLeader": false
+        },
+        {
+          "id": "000011208003",
+          "name": "Relentless Advance",
+          "cost": 20,
+          "description": "Gravis model only. This unit has Scouts 5\".",
+          "supportLeader": false
+        }
+      ],
+      "stratagems": [
+        {
+          "id": "000011209004",
+          "name": "ARMOURED IMPACT",
+          "cp": 1,
+          "type": "Gravis Linebreaker Force Stratagem",
+          "turn": "Your turn",
+          "phase": "Charge phase",
+          "when": "Your Charge phase, when a friendly Gravis unit ends a charge move.",
+          "target": "That GRAVIS unit.",
+          "effect": "When your unit ends a",
+          "text": "WHEN: Your Charge phase, when a friendly Gravis unit ends a charge move.\n\nTARGET: That GRAVIS unit.\n\nEFFECT: When your unit ends a charge move, you can select one enemy unit engaged with your unit. If you do, roll one D6 for each model in your unit engaged with that enemy unit:\n• For each 3+, that enemy unit suffers 1 mortal wound."
+        },
+        {
+          "id": "000011209002",
+          "name": "ANNIHILATING FORCE",
+          "cp": 1,
+          "type": "Gravis Linebreaker Force Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase, when a friendly Gravis unit is selected to attack.",
+          "target": "That GRAVIS unit.",
+          "effect": "Your unit’s attacks have [Lethal Hits].",
+          "text": "WHEN: Your Shooting phase or the Fight phase, when a friendly Gravis unit is selected to attack.\n\nTARGET: That GRAVIS unit.\n\nEFFECT: Your unit’s attacks have [Lethal Hits]."
+        },
+        {
+          "id": "000011209003",
+          "name": "PURGATION PUSH",
+          "cp": 1,
+          "type": "Gravis Linebreaker Force Stratagem",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly Gravis unit has shot.",
+          "target": "That GRAVIS unit.",
+          "effect": "• If your unit is unengaged, your unit can make a normal move of up to 5\", and must end that move within range of an objective.\n• Your unit is not eligible to declare a charge or embark within a Transport until the end of the turn.",
+          "text": "WHEN: Your Shooting phase, when a friendly Gravis unit has shot.\n\nTARGET: That GRAVIS unit.\n\nEFFECT:\n• If your unit is unengaged, your unit can make a normal move of up to 5\", and must end that move within range of an objective.\n• Your unit is not eligible to declare a charge or embark within a Transport until the end of the turn."
+        }
+      ],
+      "chapterDp": []
+    },
+    {
+      "id": "000001240",
+      "name": "Devastator Brethren",
+      "faction": "SM",
+      "dp": 1,
+      "forceDisposition": "Purge the Foe",
+      "legend": "HEAVILY ARMED SPACE MARINES RAIN THUNDEROUS DEATH UPON THE EMPEROR’S FOES",
+      "type": "",
+      "rules": [
+        {
+          "name": "Devastator Mastery",
+          "legend": "Unceasing and unmerciful, Adeptus Astartes fire support formations lay waste to all that falls under their gunsights.",
+          "description": "You can select the devastator doctrine one additional time per battle."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000011212002",
+          "name": "Master-forged Firearms",
+          "cost": 15,
+          "description": "Adeptus Astartes Infantry/Mounted model only. This model’s ranged attacks (excluding [Psychic] attacks) have +1 A, S, AP and D.",
+          "supportLeader": false
+        },
+        {
+          "id": "000011212003",
+          "name": "Honour of Vigilance",
+          "cost": 20,
+          "description": "ADEPTUS ASTARTES model only.\n• This unit’s ranged attacks have [Lethal Hits].\n• If the devastator doctrine is active for this unit, this unit can re-roll advance rolls.",
+          "supportLeader": false
+        }
+      ],
+      "stratagems": [
+        {
+          "id": "000011213002",
+          "name": "ARMOUR OF CONTEMPT",
+          "cp": 1,
+          "type": "Devastator Brethren Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Attacks that target your unit have -1",
+          "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.\n\nTARGET: That ADEPTUS ASTARTES unit.\n\nEFFECT: Attacks that target your unit have -1 AP until that enemy unit has attacked."
+        },
+        {
+          "id": "000011213004",
+          "name": "HAIL OF VENGEANCE",
+          "cp": 2,
+          "type": "Devastator Brethren Stratagem",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, when an enemy unit has shot, if those attacks destroyed a model in a friendly ADEPTUS ASTARTES unit.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Your unit shoots using normal shooting, but while doing so your unit can only target that enemy unit.",
+          "text": "WHEN: Your opponent’s Shooting phase, when an enemy unit has shot, if those attacks destroyed a model in a friendly ADEPTUS ASTARTES unit.\n\nTARGET: That ADEPTUS ASTARTES unit.\n\nEFFECT: Your unit shoots using normal shooting, but while doing so your unit can only target that enemy unit."
+        },
+        {
+          "id": "000011213003",
+          "name": "STORM OF FIRE",
+          "cp": 1,
+          "type": "Devastator Brethren Stratagem",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly ADEPTUS ASTARTES unit is selected to shoot.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Your unit’s ranged attacks have:\n• [Ignores Cover].\n• Or: If the devastator doctrine is active for your unit, [Ignores Cover] and +1",
+          "text": "WHEN: Your Shooting phase, when a friendly ADEPTUS ASTARTES unit is selected to shoot.\n\nTARGET: That ADEPTUS ASTARTES unit.\n\nEFFECT: Your unit’s ranged attacks have:\n• [Ignores Cover].\n• Or: If the devastator doctrine is active for your unit, [Ignores Cover] and +1 AP."
+        }
+      ],
+      "chapterDp": []
+    },
+    {
+      "id": "000001241",
+      "name": "Gravis Siege Force",
+      "faction": "SM",
+      "dp": 1,
+      "forceDisposition": "Take and Hold",
+      "legend": "GRAVIS-ARMOURED SPACE MARINES SEIZE AND HOLD VITAL STRATEGIC SITES AGAINST ANY THREAT",
+      "type": "",
+      "rules": [
+        {
+          "name": "Indomitable Defence",
+          "legend": "The Adeptus Astartes stand as an adamantine wall against any who would assail the Emperor’s realm.",
+          "description": "While a friendly Gravis unit is within range of an objective, attacks that target that unit with a S greater than that unit’s T have -1 to wound rolls."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000011216002",
+          "name": "Immovable Conquerors",
+          "cost": 15,
+          "description": "Gravis unit only. This unit has +1 OC.",
+          "supportLeader": false
+        },
+        {
+          "id": "000011216003",
+          "name": "Narthecis Gauntlet",
+          "cost": 20,
+          "description": "Apothecary Biologis model only. in your Command phase, this unit heals D3+1 wounds.",
+          "supportLeader": false
+        }
+      ],
+      "stratagems": [
+        {
+          "id": "000011217004",
+          "name": "SUPPRESSION VOLLEYS",
+          "cp": 1,
+          "type": "Gravis Siege Force Stratagem",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly Gravis unit has shot.",
+          "target": "That GRAVIS unit.",
+          "effect": "Select one enemy unit hit by those attacks. That enemy unit makes a battle-shock roll, with -1 to that",
+          "text": "WHEN: Your Shooting phase, when a friendly Gravis unit has shot.\n\nTARGET: That GRAVIS unit.\n\nEFFECT: Select one enemy unit hit by those attacks. That enemy unit makes a battle-shock roll, with -1 to that battle-shock roll."
+        },
+        {
+          "id": "000011217003",
+          "name": "STAND UNYIELDING",
+          "cp": 1,
+          "type": "Gravis Siege Force Stratagem",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "End of your Movement phase.",
+          "target": "One friendly Gravis unit.",
+          "effect": "Select one objective your unit is controlling. That",
+          "text": "WHEN: End of your Movement phase.\n\nTARGET: One friendly Gravis unit.\n\nEFFECT: Select one objective your unit is controlling. That objective is secured."
+        },
+        {
+          "id": "000011217002",
+          "name": "ANNIHILATING FORCE",
+          "cp": 1,
+          "type": "Gravis Siege Force Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase, when a friendly Gravis unit is selected to attack.",
+          "target": "That GRAVIS unit.",
+          "effect": "Your unit’s attacks have [Lethal Hits].",
+          "text": "WHEN: Your Shooting phase or the Fight phase, when a friendly Gravis unit is selected to attack.\n\nTARGET: That GRAVIS unit.\n\nEFFECT: Your unit’s attacks have [Lethal Hits]."
+        }
+      ],
+      "chapterDp": []
+    },
+    {
+      "id": "000001242",
+      "name": "Tactical Brethren",
+      "faction": "SM",
+      "dp": 1,
+      "forceDisposition": "Priority Assets",
+      "legend": "A CORE OF TACTICALLY VERSATILE WARRIORS STRENGTHENS THE SPACE MARINE BATTLE LINE",
+      "type": "",
+      "rules": [
+        {
+          "name": "Tactical Mastery",
+          "legend": "Rarely are the Adeptus Astartes deadlier than when they bring to bear the most fundamental teachings of the Codex Astartes.",
+          "description": "You can select the tactical doctrine one additional time per battle."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000011220002",
+          "name": "Laurels of Vigilance",
+          "cost": 10,
+          "description": "ADEPTUS ASTARTES model only.(Once per battle round, per army) When you use the Fire Overwatch/Heroic Intervention stratagem, if you target a friendly Adeptus Astartes Battleline unit within 12\" of this model with that stratagem, that use is -1 CP.",
+          "supportLeader": false
+        },
+        {
+          "id": "000011220003",
+          "name": "Tactical Insight",
+          "cost": 15,
+          "description": "Captain model only. The tactical doctrine is active for this unit in addition to any other combat doctrine.",
+          "supportLeader": false
+        }
+      ],
+      "stratagems": [
+        {
+          "id": "000011221002",
+          "name": "ARMOUR OF CONTEMPT",
+          "cp": 1,
+          "type": "Tactical Brethren Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Attacks that target your unit have -1",
+          "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.\n\nTARGET: That ADEPTUS ASTARTES unit.\n\nEFFECT: Attacks that target your unit have -1 AP until that enemy unit has attacked."
+        },
+        {
+          "id": "000011221003",
+          "name": "DOMINATION FIRE",
+          "cp": 1,
+          "type": "Tactical Brethren Stratagem",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly ADEPTUS ASTARTES unit has shot.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Select one enemy unit hit by those attacks. That enemy unit is",
+          "text": "WHEN: Your Shooting phase, when a friendly ADEPTUS ASTARTES unit has shot.\n\nTARGET: That ADEPTUS ASTARTES unit.\n\nEFFECT: Select one enemy unit hit by those attacks. That enemy unit is suppressed until the start of your next turn:\n• While a unit is suppressed, that unit’s attacks have -1 to hit rolls."
+        },
+        {
+          "id": "000011221004",
+          "name": "MASTERFUL TACTICS",
+          "cp": 1,
+          "type": "Tactical Brethren Stratagem",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Adeptus Astartes Infantry/Mounted unit.",
+          "target": "That ADEPTUS ASTARTES INFANTRY/MOUNTED unit.",
+          "effect": "Your unit can make a normal move of:\n• Up to D6\".\n• Or: If the tactical doctrine is active for your unit, up to 6\".",
+          "text": "WHEN: Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Adeptus Astartes Infantry/Mounted unit.\n\nTARGET: That ADEPTUS ASTARTES INFANTRY/MOUNTED unit.\n\nEFFECT: Your unit can make a normal move of:\n• Up to D6\".\n• Or: If the tactical doctrine is active for your unit, up to 6\"."
+        }
+      ],
+      "chapterDp": []
+    },
+    {
+      "id": "000001243",
+      "name": "Ironclad Champions",
+      "faction": "SM",
+      "dp": 1,
+      "forceDisposition": "Priority Assets",
+      "legend": "THE CHAPTER’S DEATHLESS DREADNOUGHT CHAMPIONS STRIDE OUT TO WAR",
+      "type": "",
+      "rules": [
+        {
+          "name": "Enduring Vengeance",
+          "legend": "Those who pilot Dreadnoughts combine the skill of undying champions with a cold and vengeful hatred of the Emperor’s countless enemies.",
+          "description": "Friendly Adeptus Astartes Dreadnought units can re-roll hit rolls of 1."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000011224002",
+          "name": "Artificer Sarcophagus",
+          "cost": 40,
+          "description": "Dreadnought unit only. Attacks that target this unit have -1 D.",
+          "supportLeader": false
+        },
+        {
+          "id": "000011224003",
+          "name": "Venerable Champion (Aura)",
+          "cost": 30,
+          "description": "Dreadnought unit only. While a friendly Adeptus Astartes Infantry/Mounted unit is within 6\" of this unit, that unit’s attacks can re-roll hit rolls of 1.",
+          "supportLeader": false
+        }
+      ],
+      "stratagems": [
+        {
+          "id": "000011225002",
+          "name": "ADAMANTINE TERROR",
+          "cp": 1,
+          "type": "Ironclad Champions Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Start of the Fight phase.",
+          "target": "One friendly Dreadnought unit.",
+          "effect": "Each enemy unit engaged with your unit makes a battle-shock roll, with -1 to that",
+          "text": "WHEN: Start of the Fight phase.\n\nTARGET: One friendly Dreadnought unit.\n\nEFFECT: Each enemy unit engaged with your unit makes a battle-shock roll, with -1 to that battle-shock roll."
+        },
+        {
+          "id": "000011225004",
+          "name": "UPSTOPPABLE ADVANCE",
+          "cp": 1,
+          "type": "Ironclad Champions Stratagem",
+          "turn": "Your turn",
+          "phase": "Movement or Charge phase",
+          "when": "Your Movement/Charge phase, when a friendly Dreadnought unit is selected to move or declares a charge.",
+          "target": "That DREADNOUGHT unit.",
+          "effect": "Your unit has Mobile.",
+          "text": "WHEN: Your Movement/Charge phase, when a friendly Dreadnought unit is selected to move or declares a charge.\n\nTARGET: That DREADNOUGHT unit.\n\nEFFECT: Your unit has Mobile."
+        },
+        {
+          "id": "000011225003",
+          "name": "MERCY IS WEAKNESS",
+          "cp": 1,
+          "type": "Ironclad Champions Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase, when a friendly Dreadnought unit is selected to attack.",
+          "target": "That DREADNOUGHT unit.",
+          "effect": "Your unit’s attacks have:\n• [lethal hits].\n• Or: [Sustained Hits 1].",
+          "text": "WHEN: Your Shooting phase or the Fight phase, when a friendly Dreadnought unit is selected to attack.\n\nTARGET: That DREADNOUGHT unit.\n\nEFFECT: Your unit’s attacks have:\n• [lethal hits].\n• Or: [Sustained Hits 1]."
+        }
+      ],
+      "chapterDp": []
+    },
+    {
+      "id": "000001244",
+      "name": "Tacticus Firestorm Force",
+      "faction": "SM",
+      "dp": 1,
+      "forceDisposition": "Priority Assets",
+      "legend": "TACTICUS-ARMOURED WARRIORS LAY DOWN DISCIPLINED FIRE TO DOMINATE THE BATTLEFIELD",
+      "type": "",
+      "rules": [
+        {
+          "name": "Codex Fire-patterns",
+          "legend": "Faced with multiple threats that must be efficiently eliminated, the Space Marines employ time-honoured ballistic doctrines to great effect.",
+          "description": "Friendly Tacticus units’ [Rapid Fire] attacks benefit from [Rapid Fire] when targeting units up to that attack’s maximum range."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000011228002",
+          "name": "Cyber-familiar",
+          "cost": 15,
+          "description": "Tacticus model only. When both players have deployed their armies, you can redeploy up to three friendly Adeptus Astartes Infantry units. When doing so, you can set those units up in strategic reserves, regardless of how many units are already in strategic reserves.",
+          "supportLeader": false
+        },
+        {
+          "id": "000011228003",
+          "name": "Tempered in Battle (Aura)",
+          "cost": 10,
+          "description": "Tacticus model only. Friendly ADEPTUS ASTARTES units within 6\" of this model can re-roll leadership rolls.",
+          "supportLeader": false
+        }
+      ],
+      "stratagems": [
+        {
+          "id": "000011229004",
+          "name": "POINT-BLANK BRUTALITY",
+          "cp": 1,
+          "type": "Tacticus Firestorm Force Stratagem",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly engaged Tacticus unit is selected to shoot.",
+          "target": "That TACTICUS unit.",
+          "effect": "Your unit’s ranged attacks (excluding [Blast] attacks) have:\n• [Close-Quarters].\n• [Ignores Cover].",
+          "text": "WHEN: Your Shooting phase, when a friendly engaged Tacticus unit is selected to shoot.\n\nTARGET: That TACTICUS unit.\n\nEFFECT: Your unit’s ranged attacks (excluding [Blast] attacks) have:\n• [Close-Quarters].\n• [Ignores Cover]."
+        },
+        {
+          "id": "000011229002",
+          "name": "FOR THE EMPEROR!",
+          "cp": 1,
+          "type": "Tacticus Firestorm Force Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Command phase",
+          "when": "Command phase.",
+          "target": "One friendly Tacticus unit that is within range of an objective.",
+          "effect": "Your unit has +1",
+          "text": "WHEN: Command phase.\n\nTARGET: One friendly Tacticus unit that is within range of an objective.\n\nEFFECT: Your unit has +1 OC until the end of the turn."
+        },
+        {
+          "id": "000011229003",
+          "name": "RELENTLESS ASSAULT",
+          "cp": 1,
+          "type": "Tacticus Firestorm Force Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase, when a friendly Tacticus unit is selected to attack.",
+          "target": "That TACTICUS unit.",
+          "effect": "Your unit’s attacks have:\n• [Sustained Hits 1: non-Monster/Vehicle].\n• Or: [Lethal Hits: Monster/Vehicle].",
+          "text": "WHEN: Your Shooting phase or the Fight phase, when a friendly Tacticus unit is selected to attack.\n\nTARGET: That TACTICUS unit.\n\nEFFECT: Your unit’s attacks have:\n• [Sustained Hits 1: non-Monster/Vehicle].\n• Or: [Lethal Hits: Monster/Vehicle]."
+        }
+      ],
+      "chapterDp": []
+    },
+    {
+      "id": "000000835",
+      "name": "Inner Circle Task Force",
+      "faction": "DA",
+      "dp": 1,
+      "forceDisposition": "Priority Assets",
+      "legend": "",
+      "type": "",
+      "rules": [
+        {
+          "name": "Vowed Target",
+          "legend": "Whether its true significance is kept a secret or not, there is a singular prize here that the Inner Circle have come to either secure or destroy. They will pursue this strategic objective with cold ferocity.",
+          "description": "In your Command phase, you can use this ability. If you do, select one objective. That objective is your vowed objective until your next Command phase.\n• Friendly Deathwing Infantry unit’s attacks that target an enemy unit within range of your vowed objective have +1 to wound rolls.\n\nRestrictions: Your army can include Dark Angels units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000008774002",
+          "name": "Singular Will",
+          "cost": 20,
+          "description": "Deathwing model only. When this unit is selected to make a consolidation move, this unit can move up to D3+3\".",
+          "supportLeader": false
+        },
+        {
+          "id": "000008774003",
+          "name": "Champion of the Deathwing",
+          "cost": 20,
+          "description": "Deathwing model only. This unit’s attacks that target an enemy unit within range of your vowed objective have [SUSTAINED HITS 1].",
+          "supportLeader": false
+        }
+      ],
+      "stratagems": [
+        {
+          "id": "000008775004",
+          "name": "WRATH OF THE LION",
+          "cp": 1,
+          "type": "Inner Circle Task Force Stratagem",
+          "turn": "Your turn",
+          "phase": "Charge phase",
+          "when": "Your Charge phase, when a friendly Deathwing unit ends a charge move.",
+          "target": "That DEATHWING unit.",
+          "effect": "Select one enemy unit engaged with your unit. If you do, roll one D6 for each model in your unit",
+          "text": "WHEN: Your Charge phase, when a friendly Deathwing unit ends a charge move.\n\nTARGET: That DEATHWING unit.\n\nEFFECT: Select one enemy unit engaged with your unit. If you do, roll one D6 for each model in your unit engaged with that enemy unit:\n• For each 3+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+        },
+        {
+          "id": "000008775002",
+          "name": "DUTY UNTO DEATH",
+          "cp": 1,
+          "type": "Inner Circle Task Force Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when an enemy unit targets a friendly Deathwing unit.",
+          "target": "That DEATHWING unit.",
+          "effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6, with +1 to that roll if your unit is engaged with an enemy unit within range of your vowed objective:\n• On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.",
+          "text": "WHEN: Fight phase, when an enemy unit targets a friendly Deathwing unit.\n\nTARGET: That DEATHWING unit.\n\nEFFECT: When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6, with +1 to that roll if your unit is engaged with an enemy unit within range of your vowed objective:\n• On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
+        },
+        {
+          "id": "000008775003",
+          "name": "RELIC TELEPORTARIUM",
+          "cp": 1,
+          "type": "Inner Circle Task Force Stratagem",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, when a friendly Deathwing unit with the Deep Strike ability is selected to make an ingress move.",
+          "target": "That DEATHWING unit.",
+          "effect": "• Your unit can be set up more than 6\" horizontally from all enemy units (instead of more than 8\").\n• Your unit is not eligible to declare a charge until the end of this turn.",
+          "text": "WHEN: Your Movement phase, when a friendly Deathwing unit with the Deep Strike ability is selected to make an ingress move.\n\nTARGET: That DEATHWING unit.\n\nEFFECT:\n• Your unit can be set up more than 6\" horizontally from all enemy units (instead of more than 8\").\n• Your unit is not eligible to declare a charge until the end of this turn."
+        }
+      ],
+      "chapterDp": []
+    },
+    {
+      "id": "000001059",
+      "name": "Wrath of the Rock",
+      "faction": "DA",
+      "dp": 2,
+      "forceDisposition": "Take and Hold",
+      "legend": "",
+      "type": "",
+      "rules": [
+        {
+          "name": "Dutiful Tenacity",
+          "legend": "Even amongst the Adeptus Astartes, the battle‑brothers of the Dark Angels are renowned for their tenacity and resilience on the battlefield. When ordered to war, they are utterly relentless in pursuing their objectives, wading into fields of withering fire and shrugging off blows that would slay mortal warriors outright.",
+          "description": "Attacks that target friendly Adeptus Astartes Infantry/Mounted units with a S greater than that unit’s T have -1 to wound rolls.\n\nRestrictions: Your army can include Dark Angels units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter."
+        }
+      ],
+      "enhancements": [
+        {
+          "id": "000010155002",
+          "name": "Tempered in Battle (Aura)",
+          "cost": 10,
+          "description": "ADEPTUS ASTARTES model only. Friendly ADEPTUS ASTARTES units within 6\" of this model can re-roll leadership rolls.",
+          "supportLeader": false
+        },
+        {
+          "id": "000010155003",
+          "name": "Lord of the Ravenwing",
+          "cost": 15,
+          "description": "Ravenwing model only. This unit can re-roll charge rolls.",
+          "supportLeader": false
+        },
+        {
+          "id": "000010155004",
+          "name": "Deathwing Assault",
+          "cost": 15,
+          "description": "Deathwing model with the Deep Strike ability only. In your first Movement phase, this unit can make an ingress move.",
+          "supportLeader": false
+        },
+        {
+          "id": "000010155005",
+          "name": "Ancient Weapons",
+          "cost": 20,
+          "description": "ADEPTUS ASTARTES model only. This model’s melee attacks:\n• Have +2 S.\n• Have +1 AP.",
+          "supportLeader": false
+        }
+      ],
+      "stratagems": [
+        {
+          "id": "000010161002",
+          "name": "IN SACRIFICE, VICTORY",
+          "cp": 1,
+          "type": "Wrath of the Rock Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, when a friendly Deathwing/Ravenwing unit within range of an objective is destroyed.",
+          "target": "That DEATHWING/RAVENWING unit. You can target that unit with this stratagem even though it is destroyed.",
+          "effect": "Select one",
+          "text": "WHEN: Any phase, when a friendly Deathwing/Ravenwing unit within range of an objective is destroyed.\n\nTARGET: That DEATHWING/RAVENWING unit. You can target that unit with this stratagem even though it is destroyed.\n\nEFFECT: Select one objective:\n• That no enemy units (excluding AIRCRAFT units) are within range of.\n• That your unit was controlling at the end of the previous phase.\n\nThat objective is secured."
+        },
+        {
+          "id": "000010161003",
+          "name": "LION'S WILL",
+          "cp": 1,
+          "type": "Wrath of the Rock Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Command phase",
+          "when": "Command phase.",
+          "target": "One friendly ADEPTUS ASTARTES unit that is within range of an objective.",
+          "effect": "Your unit has +1",
+          "text": "WHEN: Command phase.\n\nTARGET: One friendly ADEPTUS ASTARTES unit that is within range of an objective.\n\nEFFECT: Your unit has +1 OC until the end of the turn."
+        },
+        {
+          "id": "000010161004",
+          "name": "INESCAPABLE JUSTICE",
+          "cp": 1,
+          "type": "Wrath of the Rock Stratagem",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "The Fight phase, when a friendly Adeptus Astartes unit is selected to fight.",
+          "target": "That Adeptus Astartes unit.",
+          "effect": "Your unit's melee attacks have [Precision].",
+          "text": "WHEN: The Fight phase, when a friendly Adeptus Astartes unit is selected to fight.\n\nTARGET: That Adeptus Astartes unit.\n\nEFFECT: Your unit's melee attacks have [Precision]."
+        },
+        {
+          "id": "000010161005",
+          "name": "TACTICAL MASTERY",
+          "cp": 1,
+          "type": "Wrath of the Rock Stratagem",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Your Command phase.",
+          "target": "One friendly Deathwing/Ravenwing unit.",
+          "effect": "Select one combat doctrine. That",
+          "text": "WHEN: Your Command phase.\n\nTARGET: One friendly Deathwing/Ravenwing unit.\n\nEFFECT: Select one combat doctrine. That combat doctrine is active for your unit until the start of your next Command phase."
+        },
+        {
+          "id": "000010161006",
+          "name": "KNIGHTS OF IRON",
+          "cp": 1,
+          "type": "Wrath of the Rock Stratagem",
+          "turn": "Your turn",
+          "phase": "Movement or Charge phase",
+          "when": "Your Movement/Charge phase, when a friendly Ravenwing unit is selected to move or declares a charge.",
+          "target": "That RAVENWING unit.",
+          "effect": "Your unit has Mobile.",
+          "text": "WHEN: Your Movement/Charge phase, when a friendly Ravenwing unit is selected to move or declares a charge.\n\nTARGET: That RAVENWING unit.\n\nEFFECT: Your unit has Mobile."
+        },
+        {
+          "id": "000010161007",
+          "name": "RELICS OF THE DARK AGE",
+          "cp": 1,
+          "type": "Wrath of the Rock Stratagem",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly Adeptus Astartes Infantry/Mounted unit is selected to shoot.",
+          "target": "That ADEPTUS ASTARTES INFANTRY/MOUNTED unit.",
+          "effect": "Your unit’s ranged attacks have +2",
+          "text": "WHEN: Your Shooting phase, when a friendly Adeptus Astartes Infantry/Mounted unit is selected to shoot.\n\nTARGET: That ADEPTUS ASTARTES INFANTRY/MOUNTED unit.\n\nEFFECT: Your unit’s ranged attacks have +2 S."
+        }
+      ],
+      "chapterDp": []
+    }
+  ],
+  "datasheets": [
+    {
+      "id": "000000218",
+      "name": "Azrael",
+      "factionId": "SM",
+      "role": "Infantry Epic Hero",
+      "legend": "Supreme Grand Master Azrael is a beacon of inspiration to those who follow him, and is paid enormous respect for his ability as a strategist. A masterful commander, he quickly grasps changing battlefield realities and orchestrates his forces to maximum advantage. In the fray, Azrael decapitates foes with every strike of the Sword of Secrets.",
+      "transport": "",
+      "isSupport": false,
+      "link": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Azrael",
+      "source": {
+        "name": "Dark Angels",
+        "type": "App",
+        "edition": "11",
+        "version": "",
+        "errataDate": "03.10.2026 0:00:00"
+      },
+      "damaged": {
+        "w": "",
+        "description": ""
+      },
+      "leaderHead": "",
+      "leaderFooter": "",
+      "models": [
+        {
+          "name": "Azrael",
+          "M": "6\"",
+          "T": "5",
+          "Sv": "2+",
+          "invSv": "4",
+          "invSvNote": "",
+          "W": "6",
+          "Ld": "6+",
+          "OC": "1",
+          "baseSize": "50mm",
+          "baseSizeNote": ""
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Lion's Wrath",
+          "description": "Rapid Fire 1, Devastating Wounds, anti-infantry 4+",
+          "range": "24",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "The Sword of Secrets",
+          "description": "Devastating Wounds",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-4",
+          "D": "2"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Leader",
+          "description": "LEADER24.22\n\nMighty heroes fight at the forefront of battle.\nBefore the battle, in the Muster Armies step, for each leader and support unit in your army, you can select one friendly bodyguard unit that unit can lead. That unit will then lead that bodyguard unit for the battle and form an attached unit with it.\n\nUnless otherwise stated, each bodyguard unit can only have one leader unit and one support unit attached to it.",
+          "type": "Core",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Combat Doctrines",
+          "description": "At the start of your Command phase, you can select one combat doctrine listed below. If you do, that combat doctrine is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command phase.\n\nASSAULT DOCTRINE\nWhen this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n\nDEVASTATOR DOCTRINE\nThis unit’s ranged attacks have [ASSAULT].\n\nTACTICAL DOCTRINE\nWhen this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge.\nUnless otherwise stated:\n• You can only select each combat doctrine once per battle.\n• Only one combat doctrine can be active for each unit. If a rule makes a combat doctrine active for a unit, any combat doctrine previously active for that unit is no longer active for that unit.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Transhuman Strategist",
+          "description": "At the start of the battle round, if a model with this ability is your WARLORD, gain 1CP.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Masterful Tactician",
+          "description": "In your Movement phase, select up to one visible friendly ADEPTUS ASTARTES unit within 9\" of this model, and select one combat doctrine. That combat doctrine is active for that unit until the start of your next Command phase.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        },
+        {
+          "name": "Supreme Grand Master",
+          "description": "This unit’s attacks have [SUSTAINED HITS 1].",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        },
+        {
+          "name": "Watcher in the Dark (Once per battle, per unit)",
+          "description": "In any phase, when this unit suffers a mortal wound, this unit can summon a Watcher in the Dark. If it does, this unit has Feel No Pain 4+ against mortal wounds.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        },
+        {
+          "name": "The Lion Helm",
+          "description": "This unit has 4+ InSv.",
+          "type": "Wargear",
+          "model": "",
+          "shared": false
+        }
+      ],
+      "keywords": [
+        {
+          "name": "Dark Angels",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Adeptus Astartes",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Deathwing",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Explosives",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Epic Hero",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Infantry",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Imperium",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Chapter Master",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Tacticus",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Character",
+          "model": "",
+          "factionKeyword": false
+        }
+      ],
+      "optionsSource": [],
+      "costs": [
+        {
+          "text": "YOUR UNIT COSTS",
+          "cost": null
+        },
+        {
+          "text": "1 model",
+          "cost": 150
+        }
+      ],
+      "composition": [
+        "1 Azrael model"
+      ],
+      "leadsToIds": [
+        "000003698",
+        "000001157",
+        "000001606",
+        "000000071",
+        "000000126",
+        "000002772",
+        "000002255",
+        "000002098"
+      ],
+      "leadsToNames": [
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Assault Intercessor Squad",
+        "Bladeguard Veteran Squad",
+        "Infernus Squad",
+        "Company Heroes",
+        "Sternguard Veteran Squad",
+        "Hellblaster Squad"
+      ],
+      "leaderIds": [],
+      "leaderNames": []
+    },
+    {
+      "id": "000000225",
+      "name": "Asmodai",
+      "factionId": "SM",
+      "role": "Infantry Epic Hero",
+      "legend": "Asmodai is the Dark Angels’ most successful Interrogator-Chaplain. Relentless and humourless, in battle he incites his battle-brothers’ fighting spirit to reach new heights, rendering them unstoppable killing machines by chanting his litanies of hate with unshakeable belief.",
+      "transport": "",
+      "isSupport": false,
+      "link": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Asmodai",
+      "source": {
+        "name": "Dark Angels",
+        "type": "App",
+        "edition": "11",
+        "version": "",
+        "errataDate": "03.10.2026 0:00:00"
+      },
+      "damaged": {
+        "w": "",
+        "description": ""
+      },
+      "leaderHead": "",
+      "leaderFooter": "",
+      "models": [
+        {
+          "name": "Asmodai",
+          "M": "6\"",
+          "T": "5",
+          "Sv": "3+",
+          "invSv": "4",
+          "invSvNote": "",
+          "W": "4",
+          "Ld": "5+",
+          "OC": "1",
+          "baseSize": "50mm",
+          "baseSizeNote": ""
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Bolt Pistol",
+          "description": "CLOSE-QUARTERS",
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Crozius Arcanum and Power Weapon - Strike",
+          "description": "Precision",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Crozius Arcanum and Power Weapon - Sweep",
+          "description": "CLEAVE 1",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Leader",
+          "description": "LEADER24.22\n\nMighty heroes fight at the forefront of battle.\nBefore the battle, in the Muster Armies step, for each leader and support unit in your army, you can select one friendly bodyguard unit that unit can lead. That unit will then lead that bodyguard unit for the battle and form an attached unit with it.\n\nUnless otherwise stated, each bodyguard unit can only have one leader unit and one support unit attached to it.",
+          "type": "Core",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Combat Doctrines",
+          "description": "At the start of your Command phase, you can select one combat doctrine listed below. If you do, that combat doctrine is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command phase.\n\nASSAULT DOCTRINE\nWhen this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n\nDEVASTATOR DOCTRINE\nThis unit’s ranged attacks have [ASSAULT].\n\nTACTICAL DOCTRINE\nWhen this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge.\nUnless otherwise stated:\n• You can only select each combat doctrine once per battle.\n• Only one combat doctrine can be active for each unit. If a rule makes a combat doctrine active for a unit, any combat doctrine previously active for that unit is no longer active for that unit.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Transhuman Strategist",
+          "description": "At the start of the battle round, if a model with this ability is your WARLORD, gain 1CP.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Exemplar of Hate",
+          "description": "This unit’s melee attacks can re-roll hit rolls.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        },
+        {
+          "name": "Feared Interrogator",
+          "description": "At the start of the Fight phase, each enemy CHARACTER unit within 6\" of this model makes a battle-shock roll, with -1 to that battle-shock roll.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        }
+      ],
+      "keywords": [
+        {
+          "name": "Adeptus Astartes",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Dark Angels",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Epic Hero",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Deathwing",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Infantry",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Chaplain",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Character",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Tacticus",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Imperium",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Explosives",
+          "model": "",
+          "factionKeyword": false
+        }
+      ],
+      "optionsSource": [],
+      "costs": [
+        {
+          "text": "YOUR UNIT COSTS",
+          "cost": null
+        },
+        {
+          "text": "1 model",
+          "cost": 80
+        }
+      ],
+      "composition": [
+        "1 Asmodai model"
+      ],
+      "leadsToIds": [
+        "000002098",
+        "000002255",
+        "000000126",
+        "000001606",
+        "000000071",
+        "000003698",
+        "000001157"
+      ],
+      "leadsToNames": [
+        "Hellblaster Squad",
+        "Sternguard Veteran Squad",
+        "Infernus Squad",
+        "Assault Intercessor Squad",
+        "Bladeguard Veteran Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad"
+      ],
+      "leaderIds": [],
+      "leaderNames": []
+    },
+    {
+      "id": "000002682",
+      "name": "Lion El’jonson",
+      "factionId": "SM",
+      "role": "Monster Epic Hero",
+      "legend": "Lion El’Jonson stalks from mist-wreathed shadow realms like an ancient questing knight hunting down the galaxy’s terrors. With the immense blade, Fealty, the Primarch cleaves apart the most heinous of monstrosities, while the Emperor’s Shield erupts in blazes of light and force in response to his foes’ savage blows.",
+      "transport": "",
+      "isSupport": false,
+      "link": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Lion-El-jonson",
+      "source": {
+        "name": "Dark Angels",
+        "type": "App",
+        "edition": "11",
+        "version": "",
+        "errataDate": "03.10.2026 0:00:00"
+      },
+      "damaged": {
+        "w": "",
+        "description": ""
+      },
+      "leaderHead": "",
+      "leaderFooter": "",
+      "models": [
+        {
+          "name": "Lion El'Jonson",
+          "M": "8\"",
+          "T": "10",
+          "Sv": "2+",
+          "invSv": "3",
+          "invSvNote": "",
+          "W": "16",
+          "Ld": "5+",
+          "OC": "4",
+          "baseSize": "60mm",
+          "baseSizeNote": ""
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Arma Luminis - Plasma",
+          "description": "CLOSE-QUARTERS",
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "10",
+          "AP": "-3",
+          "D": "3"
+        },
+        {
+          "name": "Arma Luminis - Bolt",
+          "description": "CLOSE-QUARTERS",
+          "range": "18",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Fealty - Sweep",
+          "description": "Sustained Hits 1, CLEAVE 2",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Fealty - Strike",
+          "description": "Lethal Hits",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "2",
+          "S": "12",
+          "AP": "-4",
+          "D": "4"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Deep Strike",
+          "description": "DEEP STRIKE24.09\n\nThere are many ways by which to deploy troops to the field of battle including tunnels, teleportation devices and other esoteric means of transportation.\nEach time this unit makes an ingress move (20.04), if every model in this unit has this ability, it can be set up anywhere on the battlefield that is more than 8\" horizontally from all enemy units, even if that is within your opponent’s deployment zone.",
+          "type": "Core",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Fights First",
+          "description": "FIGHTS FIRST24.13\n\nThose possessed of lightning-fast reactions may strike before the opponent can react.\nWhile every model in a unit has this ability, that unit is a Fights First unit.\n\nSee the Resolve Fights First Combats step in the Fight phase (12.04).",
+          "type": "Core",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Combat Doctrines",
+          "description": "At the start of your Command phase, you can select one combat doctrine listed below. If you do, that combat doctrine is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command phase.\n\nASSAULT DOCTRINE\nWhen this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n\nDEVASTATOR DOCTRINE\nThis unit’s ranged attacks have [ASSAULT].\n\nTACTICAL DOCTRINE\nWhen this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge.\nUnless otherwise stated:\n• You can only select each combat doctrine once per battle.\n• Only one combat doctrine can be active for each unit. If a rule makes a combat doctrine active for a unit, any combat doctrine previously active for that unit is no longer active for that unit.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Transhuman Strategist",
+          "description": "At the start of the battle round, if a model with this ability is your WARLORD, gain 1CP.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Dark Angels Bodyguard",
+          "description": "While this unit is within 3\" of a friendly Dark Angels Infantry unit, this unit has Lone Operative.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        },
+        {
+          "name": "The Emperor's Shield",
+          "description": "Attacks that target this unit with a S greater than this unit’s T have -1 to wound rolls.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        },
+        {
+          "name": "Primarch of the First Legion",
+          "description": "At the start of your Command phase, you can select up to two of the abilities in the Primarch of the First Legion section. Until the start of your next Command phase, this model has those abilities.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        },
+        {
+          "name": "The Watchers",
+          "description": "This unit has Feel No Pain 4+ against psychic attacks and mortal wounds.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        },
+        {
+          "name": "Master Strategist",
+          "description": "In your Command phase, you can use this ability. If you do, select one combat doctrine to be active for this unit until the start of your next Command phase, in addition to any other combat doctrine.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        },
+        {
+          "name": "Mist-wreathed Shadow Realms",
+          "description": "In your Command phase, if this unit is unengaged, you can use this ability. If you do:\n• Place this unit in strategic reserves.\n• This unit can make an ingress move in your next Movement phase (including in your first turn).",
+          "type": "Primarch",
+          "model": "",
+          "shared": false
+        },
+        {
+          "name": "Martial Exemplar",
+          "description": "While a friendly Dark Angels unit is within 6\" of this unit, that unit’s melee attacks can:\n• Re-roll hit rolls of 1.\n• Re-roll wound rolls of 1.",
+          "type": "Primarch",
+          "model": "",
+          "shared": false
+        },
+        {
+          "name": "No Hiding from the Watchers",
+          "description": "While a friendly Dark Angels unit is within 6\" of this unit, that unit has Feel No Pain 5+ against psychic attacks and mortal wounds.",
+          "type": "Primarch",
+          "model": "",
+          "shared": false
+        },
+        {
+          "name": "Supreme Commander",
+          "description": "If this model is in your army, it must be your WARLORD.",
+          "type": "Fortification (левая колонка)",
+          "model": "",
+          "shared": false
+        }
+      ],
+      "keywords": [
+        {
+          "name": "Dark Angels",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Adeptus Astartes",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Epic Hero",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Imperium",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Mobile",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Monster",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Character",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Primarch",
+          "model": "",
+          "factionKeyword": false
+        }
+      ],
+      "optionsSource": [],
+      "costs": [
+        {
+          "text": "YOUR UNIT COSTS",
+          "cost": null
+        },
+        {
+          "text": "1 model",
+          "cost": 415
+        }
+      ],
+      "composition": [
+        "1 Lion El'Jonson model"
+      ],
+      "leadsToIds": [],
+      "leadsToNames": [],
+      "leaderIds": [],
+      "leaderNames": []
+    },
+    {
+      "id": "000001606",
+      "name": "Assault Intercessor Squad",
+      "factionId": "SM",
+      "role": "Battleline",
+      "legend": "Assault Intercessors are amongst the most widespread close support units in a Chapter’s arsenal. Firing their heavy bolt pistols as they close upon the foe, they charge into the fray, where they make short work of their enemies with brutal swings of their chainswords.",
+      "transport": "",
+      "isSupport": false,
+      "link": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Assault-Intercessor-Squad",
+      "source": {
+        "name": "Space Marines",
+        "type": "App",
+        "edition": "11",
+        "version": "",
+        "errataDate": "01.01.0001 0:00:00"
+      },
+      "damaged": {
+        "w": "",
+        "description": ""
+      },
+      "leaderHead": "",
+      "leaderFooter": "",
+      "models": [
+        {
+          "name": "Assault Intercessor",
+          "M": "6\"",
+          "T": "5",
+          "Sv": "3+",
+          "invSv": "-",
+          "invSvNote": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "2",
+          "baseSize": "32mm",
+          "baseSizeNote": ""
+        },
+        {
+          "name": "Assault Intercessor Sergeant",
+          "M": "6\"",
+          "T": "5",
+          "Sv": "3+",
+          "invSv": "-",
+          "invSvNote": "",
+          "W": "2",
+          "Ld": "6+",
+          "OC": "2",
+          "baseSize": "32mm",
+          "baseSizeNote": ""
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Hand Flamer",
+          "description": "CLOSE-QUARTERS, Torrent",
+          "range": "9",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "-",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Heavy Bolt Pistol",
+          "description": "CLOSE-QUARTERS",
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Plasma Pistol - Standard",
+          "description": "CLOSE-QUARTERS",
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Plasma Pistol - Supercharge",
+          "description": "CLOSE-QUARTERS, Hazardous",
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Chainsword",
+          "description": "",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Power Fist",
+          "description": "",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Power Weapon",
+          "description": "",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Thunder Hammer",
+          "description": "Devastating Wounds",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "4",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Combat Doctrines",
+          "description": "At the start of your Command phase, you can select one combat doctrine listed below. If you do, that combat doctrine is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command phase.\n\nASSAULT DOCTRINE\nWhen this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n\nDEVASTATOR DOCTRINE\nThis unit’s ranged attacks have [ASSAULT].\n\nTACTICAL DOCTRINE\nWhen this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge.\nUnless otherwise stated:\n• You can only select each combat doctrine once per battle.\n• Only one combat doctrine can be active for each unit. If a rule makes a combat doctrine active for a unit, any combat doctrine previously active for that unit is no longer active for that unit.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Targeted Intercession",
+          "description": "If this unit made a charge move this turn, this unit’s melee attacks have +1 S and AP.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        }
+      ],
+      "keywords": [
+        {
+          "name": "Adeptus Astartes",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Infantry",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Battleline",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Explosives",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Imperium",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Tacticus",
+          "model": "",
+          "factionKeyword": false
+        }
+      ],
+      "optionsSource": [
+        {
+          "line": 1,
+          "text": "The Assault Intercessor Sergeant can have their Heavy Bolt Pistol replaced with one of the following:• 1 Hand Flamer\n• 1 Plasma Pistol",
+          "button": "•"
+        },
+        {
+          "line": 2,
+          "text": "The Assault Intercessor Sergeant can have their Chainsword replaced with one of the following:• 1 Power Fist\n• 1 Power Weapon\n• 1 Thunder Hammer",
+          "button": "•"
+        }
+      ],
+      "costs": [
+        {
+          "text": "YOUR UNIT COSTS",
+          "cost": null
+        },
+        {
+          "text": "5 models",
+          "cost": 85
+        },
+        {
+          "text": "10 models",
+          "cost": 170
+        }
+      ],
+      "composition": [
+        "1 Assault Intercessor Sergeant model",
+        "4-9 Assault Intercessor models"
+      ],
+      "leadsToIds": [],
+      "leadsToNames": [],
+      "leaderIds": [
+        "000000140",
+        "000001346",
+        "000004129",
+        "000004187",
+        "000002707",
+        "000003831",
+        "000002794",
+        "000002793",
+        "000002296",
+        "000002775",
+        "000000218",
+        "000000073",
+        "000000297",
+        "000002796",
+        "000000225",
+        "000004246",
+        "000004130",
+        "000001611",
+        "000001174",
+        "000002100",
+        "000002795",
+        "000000226",
+        "000004188",
+        "000002792",
+        "000000292",
+        "000004248",
+        "000000306",
+        "000002266",
+        "000002709",
+        "000000158",
+        "000002726",
+        "000002773"
+      ],
+      "leaderNames": [
+        "Techmarine",
+        "Lieutenant",
+        "Wolf Priest",
+        "Captain Titus",
+        "Judiciar",
+        "Blood Angels Captain",
+        "High Marshal Helbrecht",
+        "Castellan",
+        "Lazarus",
+        "Ancient",
+        "Azrael",
+        "Captain",
+        "Ulrik The Slayer",
+        "Marshal",
+        "Asmodai",
+        "Marneus Calgar",
+        "Wolf Guard Battle Leader",
+        "Chief Librarian Tigurius",
+        "Chaplain",
+        "Adrax Agatone",
+        "Emperor’s Champion",
+        "Ezekiel",
+        "Wardens of Ultramar",
+        "Chaplain Grimaldus",
+        "Njal Stormcaller",
+        "Kaius Konorius",
+        "Iron Priest",
+        "Librarian",
+        "Kor’sarro Khan",
+        "Sanguinary Priest",
+        "Vulkan He’stan",
+        "Apothecary"
+      ]
+    },
+    {
+      "id": "000002717",
+      "name": "Redemptor Dreadnought",
+      "factionId": "SM",
+      "role": "Walker",
+      "legend": "Redemptor Dreadnoughts are some of the largest of their kind ever fielded by the Adeptus Astartes. Armed to the teeth, they can be equipped to utterly destroy virtually any kind of battlefield target with hails of solid shot or super-heated plasma.",
+      "transport": "",
+      "isSupport": false,
+      "link": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Redemptor-Dreadnought",
+      "source": {
+        "name": "Space Marines",
+        "type": "App",
+        "edition": "11",
+        "version": "",
+        "errataDate": "01.01.0001 0:00:00"
+      },
+      "damaged": {
+        "w": "",
+        "description": ""
+      },
+      "leaderHead": "",
+      "leaderFooter": "",
+      "models": [
+        {
+          "name": "Redemptor Dreadnought",
+          "M": "8\"",
+          "T": "10",
+          "Sv": "2+",
+          "invSv": "-",
+          "invSvNote": "",
+          "W": "12",
+          "Ld": "6+",
+          "OC": "4",
+          "baseSize": "90mm",
+          "baseSizeNote": ""
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Fragstorm Grenade Launchers",
+          "description": "BLAST 2",
+          "range": "18",
+          "type": "Ranged",
+          "A": "6",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Heavy Flamer",
+          "description": "BLAST 2, Torrent",
+          "range": "12",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "-",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Heavy Onslaught Gatling Cannon",
+          "description": "DEVASTATING WOUNDS: non-MONSTER/VEHICLE, SUSTAINED HITS 2: non-MONSTER/VEHICLE",
+          "range": "24",
+          "type": "Ranged",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Icarus Rocket Pod",
+          "description": "Anti-Fly 2+",
+          "range": "24",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Macro Plasma Incinerator - Standard",
+          "description": "BLAST 1",
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3+3",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Macro Plasma Incinerator - Supercharge",
+          "description": "BLAST 1, Hazardous",
+          "range": "36",
+          "type": "Ranged",
+          "A": "D3+3",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-4",
+          "D": "3"
+        },
+        {
+          "name": "Onslaught Gatling Cannon",
+          "description": "DEVASTATING WOUNDS: non-MONSTER/VEHICLE",
+          "range": "24",
+          "type": "Ranged",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Storm Bolters",
+          "description": "Rapid Fire 4",
+          "range": "24",
+          "type": "Ranged",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Redemptor Fist",
+          "description": "",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-3",
+          "D": "D3+3"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Damaged",
+          "description": "DAMAGED24.39\n\nThis ability always takes the form Damaged X. While a model’s remaining wounds are equal to or less than X, that model is damaged: while damaged, that model’s attacks have -1 to hit rolls.",
+          "type": "Core",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Deadly Demise",
+          "description": "DEADLY DEMISE24.08\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nThis ability always takes the form Deadly Demise X. Each time a model with this ability is destroyed, after the units embarked within it (if any) have made their emergency disembark moves, roll one D6. On a 6, that model suffers a deadly demise; each unit within 6\" of that model suffers a number of mortal wounds denoted by X (if this is a random number, roll separately for each unit within 6\").",
+          "type": "Core",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Combat Doctrines",
+          "description": "At the start of your Command phase, you can select one combat doctrine listed below. If you do, that combat doctrine is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command phase.\n\nASSAULT DOCTRINE\nWhen this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n\nDEVASTATOR DOCTRINE\nThis unit’s ranged attacks have [ASSAULT].\n\nTACTICAL DOCTRINE\nWhen this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge.\nUnless otherwise stated:\n• You can only select each combat doctrine once per battle.\n• Only one combat doctrine can be active for each unit. If a rule makes a combat doctrine active for a unit, any combat doctrine previously active for that unit is no longer active for that unit.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Duty Eternal",
+          "description": "Attacks that target this unit with a S greater than this unit’s T have -1 to wound rolls.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        }
+      ],
+      "keywords": [
+        {
+          "name": "Adeptus Astartes",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Imperium",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Dreadnought",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Walker",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Deathwing",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Vehicle",
+          "model": "",
+          "factionKeyword": false
+        }
+      ],
+      "optionsSource": [
+        {
+          "line": 1,
+          "text": "This model can be equipped with 1 Icarus Rocket Pod.",
+          "button": "•"
+        },
+        {
+          "line": 2,
+          "text": "This model’s Fragstorm Grenade Launchers can be replaced with 1 Storm Bolters.",
+          "button": "•"
+        },
+        {
+          "line": 3,
+          "text": "This model’s Heavy Flamer can be replaced with 1 Onslaught Gatling Cannon.",
+          "button": "•"
+        },
+        {
+          "line": 4,
+          "text": "This model’s Heavy Onslaught Gatling Cannon can be replaced with 1 Macro Plasma Incinerator.",
+          "button": "•"
+        }
+      ],
+      "costs": [
+        {
+          "text": "YOUR 1ST TO 2ND UNITS COST",
+          "cost": null
+        },
+        {
+          "text": "1 model",
+          "cost": 170
+        },
+        {
+          "text": "YOUR 3RD+ UNIT COSTS",
+          "cost": null
+        },
+        {
+          "text": "1 model",
+          "cost": 190
+        },
+        {
+          "text": "WARGEAR OPTIONS",
+          "cost": null
+        },
+        {
+          "text": "per Macro Plasma Incinerator",
+          "cost": 10
+        }
+      ],
+      "composition": [
+        "1 Redemptor Dreadnought model"
+      ],
+      "leadsToIds": [],
+      "leadsToNames": [],
+      "leaderIds": [],
+      "leaderNames": []
+    },
+    {
+      "id": "000003698",
+      "name": "Inner Circle Companions",
+      "factionId": "SM",
+      "role": "Infantry",
+      "legend": "Wielding Calibanite greatswords with breathtaking skill, wreathed in the incense smoke of their braziers of judgement, the Inner Circle Companions cut a crimson path through their foes. They are sinister warriors whether battling as ally or enemy, for they fight in silence save for the whine of their armour servos and the crunch of their blades through flesh and bone.",
+      "transport": "",
+      "isSupport": false,
+      "link": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Inner-Circle-Companions",
+      "source": {
+        "name": "Dark Angels",
+        "type": "App",
+        "edition": "11",
+        "version": "",
+        "errataDate": "03.10.2026 0:00:00"
+      },
+      "damaged": {
+        "w": "",
+        "description": ""
+      },
+      "leaderHead": "",
+      "leaderFooter": "",
+      "models": [
+        {
+          "name": "Inner Circle Companions",
+          "M": "6\"",
+          "T": "5",
+          "Sv": "3+",
+          "invSv": "-",
+          "invSvNote": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "2",
+          "baseSize": "40mm",
+          "baseSizeNote": ""
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Bolt Pistol",
+          "description": "CLOSE-QUARTERS",
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Calibanite Greatsword - Sweep",
+          "description": "Sustained Hits 2",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Calibanite Greatsword - Strike",
+          "description": "Lethal Hits",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Combat Doctrines",
+          "description": "At the start of your Command phase, you can select one combat doctrine listed below. If you do, that combat doctrine is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command phase.\n\nASSAULT DOCTRINE\nWhen this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n\nDEVASTATOR DOCTRINE\nThis unit’s ranged attacks have [ASSAULT].\n\nTACTICAL DOCTRINE\nWhen this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge.\nUnless otherwise stated:\n• You can only select each combat doctrine once per battle.\n• Only one combat doctrine can be active for each unit. If a rule makes a combat doctrine active for a unit, any combat doctrine previously active for that unit is no longer active for that unit.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Braziers of Judgement",
+          "description": "• This unit has Stealth.\n• Melee attacks that target this unit have -1 to hit rolls.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        },
+        {
+          "name": "Emnity for the Unworthy",
+          "description": "This unit’s attacks that target a CHARACTER unit have +1 to hit rolls.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        }
+      ],
+      "keywords": [
+        {
+          "name": "Adeptus Astartes",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Dark Angels",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Infantry",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Deathwing",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Imperium",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Tacticus",
+          "model": "",
+          "factionKeyword": false
+        }
+      ],
+      "optionsSource": [],
+      "costs": [
+        {
+          "text": "YOUR 1ST TO 2ND UNITS COST",
+          "cost": null
+        },
+        {
+          "text": "3 models",
+          "cost": 90
+        },
+        {
+          "text": "6 models",
+          "cost": 180
+        },
+        {
+          "text": "YOUR 3RD+ UNIT COSTS",
+          "cost": null
+        },
+        {
+          "text": "3 models",
+          "cost": 105
+        },
+        {
+          "text": "6 models",
+          "cost": 195
+        }
+      ],
+      "composition": [
+        "3-6 Inner Circle Companions models"
+      ],
+      "leadsToIds": [],
+      "leadsToNames": [],
+      "leaderIds": [
+        "000002707",
+        "000002773",
+        "000002266",
+        "000000218",
+        "000001174",
+        "000002775",
+        "000001346",
+        "000002296",
+        "000000225",
+        "000000073",
+        "000000226"
+      ],
+      "leaderNames": [
+        "Judiciar",
+        "Apothecary",
+        "Librarian",
+        "Azrael",
+        "Chaplain",
+        "Ancient",
+        "Lieutenant",
+        "Lazarus",
+        "Asmodai",
+        "Captain",
+        "Ezekiel"
+      ]
+    },
+    {
+      "id": "000002707",
+      "name": "Judiciar",
+      "factionId": "SM",
+      "role": "Infantry Character",
+      "legend": "Sworn to silence, Judiciars do not preach aloud, but instead their deeds are a litany of fury. Wielding a tempormortis in one hand and an immense blade in the other, they must prove their worth in battle to join the Chaplaincy proper, doing so through acts of devotion and the slaying of enemies.",
+      "transport": "",
+      "isSupport": true,
+      "link": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Judiciar",
+      "source": {
+        "name": "Space Marines",
+        "type": "App",
+        "edition": "11",
+        "version": "",
+        "errataDate": "01.01.0001 0:00:00"
+      },
+      "damaged": {
+        "w": "",
+        "description": ""
+      },
+      "leaderHead": "",
+      "leaderFooter": "",
+      "models": [
+        {
+          "name": "Judiciar",
+          "M": "6\"",
+          "T": "5",
+          "Sv": "3+",
+          "invSv": "4",
+          "invSvNote": "Against melee attacks only",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "baseSize": "40mm",
+          "baseSizeNote": ""
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Absolvor Bolt Pistol",
+          "description": "CLOSE-QUARTERS",
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Executioner Relic Blade",
+          "description": "Precision, Devastating Wounds",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Fights First",
+          "description": "FIGHTS FIRST24.13\n\nThose possessed of lightning-fast reactions may strike before the opponent can react.\nWhile every model in a unit has this ability, that unit is a Fights First unit.\n\nSee the Resolve Fights First Combats step in the Fight phase (12.04).",
+          "type": "Core",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Support",
+          "description": "SUPPORT24.34\n\nSpecialist combatants may be assigned to front-line squads to bolster their fighting effectiveness.\nBefore the battle, in the Muster Armies step, for each leader and support unit in your army, you can select one friendly bodyguard unit that unit can lead. That unit will then lead that bodyguard unit for the battle and form an attached unit with it.\n\nUnless otherwise stated, each bodyguard unit can only have one leader unit and one support unit attached to it.",
+          "type": "Core",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Combat Doctrines",
+          "description": "At the start of your Command phase, you can select one combat doctrine listed below. If you do, that combat doctrine is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command phase.\n\nASSAULT DOCTRINE\nWhen this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n\nDEVASTATOR DOCTRINE\nThis unit’s ranged attacks have [ASSAULT].\n\nTACTICAL DOCTRINE\nWhen this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge.\nUnless otherwise stated:\n• You can only select each combat doctrine once per battle.\n• Only one combat doctrine can be active for each unit. If a rule makes a combat doctrine active for a unit, any combat doctrine previously active for that unit is no longer active for that unit.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Tempormortis",
+          "description": "This unit has Fights First.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        }
+      ],
+      "keywords": [
+        {
+          "name": "Adeptus Astartes",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Infantry",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Character",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Imperium",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Tacticus",
+          "model": "",
+          "factionKeyword": false
+        }
+      ],
+      "optionsSource": [],
+      "costs": [
+        {
+          "text": "YOUR UNIT COSTS",
+          "cost": null
+        },
+        {
+          "text": "1 model",
+          "cost": 50
+        }
+      ],
+      "composition": [
+        "1 Judiciar model"
+      ],
+      "leadsToIds": [
+        "000002798",
+        "000002255",
+        "000004175",
+        "000001606",
+        "000003698",
+        "000000071",
+        "000001157",
+        "000002783",
+        "000002799",
+        "000000126",
+        "000001154",
+        "000002780"
+      ],
+      "leadsToNames": [
+        "Sword Brethren Squad",
+        "Sternguard Veteran Squad",
+        "Decimus Kill Team",
+        "Assault Intercessor Squad",
+        "Inner Circle Companions",
+        "Bladeguard Veteran Squad",
+        "Intercessor Squad",
+        "Deathwatch Veterans",
+        "Crusader Squad",
+        "Infernus Squad",
+        "Vanguard Veteran Squad",
+        "Fortis Kill Team"
+      ],
+      "leaderIds": [],
+      "leaderNames": []
+    },
+    {
+      "id": "000000231",
+      "name": "Deathwing Knights",
+      "factionId": "SM",
+      "role": "Infantry",
+      "legend": "Deathwing Knights are the Chapter’s ultimate death-dealers, their strikes breaking the enemy’s back in one fell swoop. Equipped with heirloom wargear, they teleport into the heart of the thickest fighting, led by Knight Masters who are whirlwinds of deathly destruction.",
+      "transport": "",
+      "isSupport": false,
+      "link": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Deathwing-Knights",
+      "source": {
+        "name": "Dark Angels",
+        "type": "App",
+        "edition": "11",
+        "version": "",
+        "errataDate": "03.10.2026 0:00:00"
+      },
+      "damaged": {
+        "w": "",
+        "description": ""
+      },
+      "leaderHead": "",
+      "leaderFooter": "",
+      "models": [
+        {
+          "name": "Deathwing Knights",
+          "M": "5\"",
+          "T": "6",
+          "Sv": "2+",
+          "invSv": "4",
+          "invSvNote": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "baseSize": "40mm",
+          "baseSizeNote": ""
+        },
+        {
+          "name": "Knight Master",
+          "M": "5\"",
+          "T": "6",
+          "Sv": "2+",
+          "invSv": "4",
+          "invSvNote": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "baseSize": "40mm",
+          "baseSizeNote": ""
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Great Weapon of the Unforgiven",
+          "description": "Devastating Wounds, Sustained Hits 1",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Mace of Absolution",
+          "description": "ANTI-MONSTER/VEHICLE 4+",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Power Weapon",
+          "description": "",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Relic Weapon",
+          "description": "Lethal Hits",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Deep Strike",
+          "description": "DEEP STRIKE24.09\n\nThere are many ways by which to deploy troops to the field of battle including tunnels, teleportation devices and other esoteric means of transportation.\nEach time this unit makes an ingress move (20.04), if every model in this unit has this ability, it can be set up anywhere on the battlefield that is more than 8\" horizontally from all enemy units, even if that is within your opponent’s deployment zone.",
+          "type": "Core",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Combat Doctrines",
+          "description": "At the start of your Command phase, you can select one combat doctrine listed below. If you do, that combat doctrine is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command phase.\n\nASSAULT DOCTRINE\nWhen this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n\nDEVASTATOR DOCTRINE\nThis unit’s ranged attacks have [ASSAULT].\n\nTACTICAL DOCTRINE\nWhen this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge.\nUnless otherwise stated:\n• You can only select each combat doctrine once per battle.\n• Only one combat doctrine can be active for each unit. If a rule makes a combat doctrine active for a unit, any combat doctrine previously active for that unit is no longer active for that unit.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Inner Circle",
+          "description": "• Attacks that target this unit have -1 D.\n• This unit cannot be targeted with the Tactical Dreadnought Fortitude stratagem.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        },
+        {
+          "name": "Teleport Homer (Once per battle, per unit)",
+          "description": "At the start of the battle, you can set up one Teleport Homer token for this unit on the battlefield. If you do:\n• When you target this unit with the Rapid Ingress stratagem, you can use that Teleport Homer token. If you do, that use is -1 CP, but when resolving that stratagem, this unit must be set up within 3\" of that Teleport Homer token and not within 8\" of an enemy unit. That Teleport Homer token is then removed from the battlefield. \n• If an enemy unit ends a move within 1\" of that Teleport Homer token, that Teleport Homer token is removed from the battlefield.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        },
+        {
+          "name": "Watcher in the Dark",
+          "description": "Once per battle, in any phase, just after a mortal wound is allocated to an ADEPTUS ASTARTES model in this unit, this unit can summon a Watcher in the Dark. When it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability against mortal wounds.\n\nDesigner’s Note: Place a Watcher in the Dark token next to the unit, removing it when this ability has been used.",
+          "type": "Wargear",
+          "model": "",
+          "shared": false
+        }
+      ],
+      "keywords": [
+        {
+          "name": "Adeptus Astartes",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Dark Angels",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Imperium",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Terminator",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Infantry",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Deathwing",
+          "model": "",
+          "factionKeyword": false
+        }
+      ],
+      "optionsSource": [
+        {
+          "line": 1,
+          "text": "This unit can be equipped with 1 Watcher in the Dark",
+          "button": "•"
+        },
+        {
+          "line": 2,
+          "text": "The Knight Master can have their Great Weapon of the Unforgiven replaced with 1 Relic Weapon.",
+          "button": "•"
+        },
+        {
+          "line": 3,
+          "text": "All Deathwing Knight models in this unit can each have their Mace of Absolution replaced with 1 Power Weapon.",
+          "button": "•"
+        }
+      ],
+      "costs": [
+        {
+          "text": "YOUR 1ST TO 2ND UNITS COST",
+          "cost": null
+        },
+        {
+          "text": "5 models",
+          "cost": 255
+        },
+        {
+          "text": "YOUR 3RD+ UNIT COSTS",
+          "cost": null
+        },
+        {
+          "text": "5 models",
+          "cost": 275
+        }
+      ],
+      "composition": [
+        "1 Knight Master model",
+        "4 Deathwing Knights models"
+      ],
+      "leadsToIds": [],
+      "leadsToNames": [],
+      "leaderIds": [
+        "000000135",
+        "000000079",
+        "000000115",
+        "000000219",
+        "000002677"
+      ],
+      "leaderNames": [
+        "Captain In Terminator Armour",
+        "Librarian In Terminator Armour",
+        "Chaplain In Terminator Armour",
+        "Belial",
+        "Ancient In Terminator Armour"
+      ]
+    },
+    {
+      "id": "000001172",
+      "name": "Captain In Gravis Armour",
+      "factionId": "SM",
+      "role": "Infantry Character",
+      "legend": "Clad in a suit of indomitable Gravis armour, a Space Marine Captain can fearlessly stride into the very fiercest battlefield firestorms. To don Gravis armour is to demonstrate the greatest determination to crush the enemy, no matter how deeply they are entrenched.",
+      "transport": "",
+      "isSupport": false,
+      "link": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Captain-In-Gravis-Armour",
+      "source": {
+        "name": "Space Marines",
+        "type": "App",
+        "edition": "11",
+        "version": "",
+        "errataDate": "01.01.0001 0:00:00"
+      },
+      "damaged": {
+        "w": "",
+        "description": ""
+      },
+      "leaderHead": "",
+      "leaderFooter": "",
+      "models": [
+        {
+          "name": "Captain in Gravis Armour",
+          "M": "5\"",
+          "T": "6",
+          "Sv": "3+",
+          "invSv": "4",
+          "invSvNote": "",
+          "W": "6",
+          "Ld": "6+",
+          "OC": "1",
+          "baseSize": "40mm",
+          "baseSizeNote": ""
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Boltstorm Gauntlet",
+          "description": "CLOSE-QUARTERS",
+          "range": "12",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Master-crafted Heavy Bolt Rifle",
+          "description": "Heavy, ASSAULT, Rapid Fire 1",
+          "range": "30",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "3"
+        },
+        {
+          "name": "Boltstorm Gauntlet",
+          "description": "",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Master-crafted Power Weapon",
+          "description": "",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "6",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Relic Blade",
+          "description": "Extra Attacks",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Relic Chainsword",
+          "description": "Extra Attacks",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "2",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Relic Power Fist",
+          "description": "Extra Attacks",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Leader",
+          "description": "LEADER24.22\n\nMighty heroes fight at the forefront of battle.\nBefore the battle, in the Muster Armies step, for each leader and support unit in your army, you can select one friendly bodyguard unit that unit can lead. That unit will then lead that bodyguard unit for the battle and form an attached unit with it.\n\nUnless otherwise stated, each bodyguard unit can only have one leader unit and one support unit attached to it.",
+          "type": "Core",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Combat Doctrines",
+          "description": "At the start of your Command phase, you can select one combat doctrine listed below. If you do, that combat doctrine is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command phase.\n\nASSAULT DOCTRINE\nWhen this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n\nDEVASTATOR DOCTRINE\nThis unit’s ranged attacks have [ASSAULT].\n\nTACTICAL DOCTRINE\nWhen this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge.\nUnless otherwise stated:\n• You can only select each combat doctrine once per battle.\n• Only one combat doctrine can be active for each unit. If a rule makes a combat doctrine active for a unit, any combat doctrine previously active for that unit is no longer active for that unit.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Transhuman Strategist",
+          "description": "At the start of the battle round, if a model with this ability is your WARLORD, gain 1CP.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Strategic Acumen",
+          "description": "In your Command phase, you can use this ability. If you do, select one combat doctrine to be active for this unit until the start of your next Command phase.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        },
+        {
+          "name": "Refuse to Yield",
+          "description": "Attacks allocated to this model have -1 D.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        }
+      ],
+      "keywords": [
+        {
+          "name": "Adeptus Astartes",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Imperium",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Gravis",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Explosives",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Character",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Captain",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Infantry",
+          "model": "",
+          "factionKeyword": false
+        }
+      ],
+      "optionsSource": [
+        {
+          "line": 1,
+          "text": "This model’s Master-crafted Heavy Bolt Rifle and Master-crafted Power Weapon can be replaced with one of the following:• 1 Boltstorm Gauntlet and 1 Relic Blade\n• 1 Boltstorm Gauntlet and 1 Relic Chainsword\n• 1 Boltstorm Gauntlet and 1 Relic Power Fist",
+          "button": "•"
+        }
+      ],
+      "costs": [
+        {
+          "text": "YOUR UNIT COSTS",
+          "cost": null
+        },
+        {
+          "text": "1 model",
+          "cost": 90
+        }
+      ],
+      "composition": [
+        "1 Captain in Gravis Armour model"
+      ],
+      "leadsToIds": [
+        "000002099",
+        "000002781",
+        "000004231",
+        "000001177",
+        "000004249"
+      ],
+      "leadsToNames": [
+        "Aggressor Squad",
+        "Indomitor Kill Team",
+        "Eradicator Squad with Heavy Bolters",
+        "Heavy Intercessor Squad",
+        "Eradicator Squad with Melta Rifles"
+      ],
+      "leaderIds": [],
+      "leaderNames": []
+    },
+    {
+      "id": "000001174",
+      "name": "Chaplain",
+      "factionId": "SM",
+      "role": "Infantry Character",
+      "legend": "Cloak billowing in the heat of battle and absolvor pistol flaring, Chaplains stride purposefully into battle, the boom of their oration audible even over the furious din of conflict. Without rest they exhort their brothers to victory, steeling their hearts, minds and souls no matter the savagery of the enemy.",
+      "transport": "",
+      "isSupport": false,
+      "link": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Chaplain",
+      "source": {
+        "name": "Space Marines",
+        "type": "App",
+        "edition": "11",
+        "version": "",
+        "errataDate": "01.01.0001 0:00:00"
+      },
+      "damaged": {
+        "w": "",
+        "description": ""
+      },
+      "leaderHead": "",
+      "leaderFooter": "",
+      "models": [
+        {
+          "name": "Chaplain",
+          "M": "6\"",
+          "T": "5",
+          "Sv": "3+",
+          "invSv": "4",
+          "invSvNote": "",
+          "W": "4",
+          "Ld": "5+",
+          "OC": "1",
+          "baseSize": "40mm",
+          "baseSizeNote": ""
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Absolvor Bolt Pistol",
+          "description": "CLOSE-QUARTERS",
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Crozius Arcanum",
+          "description": "CLEAVE 1",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "5",
+          "BS_WS": "2",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Leader",
+          "description": "LEADER24.22\n\nMighty heroes fight at the forefront of battle.\nBefore the battle, in the Muster Armies step, for each leader and support unit in your army, you can select one friendly bodyguard unit that unit can lead. That unit will then lead that bodyguard unit for the battle and form an attached unit with it.\n\nUnless otherwise stated, each bodyguard unit can only have one leader unit and one support unit attached to it.",
+          "type": "Core",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Combat Doctrines",
+          "description": "At the start of your Command phase, you can select one combat doctrine listed below. If you do, that combat doctrine is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command phase.\n\nASSAULT DOCTRINE\nWhen this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n\nDEVASTATOR DOCTRINE\nThis unit’s ranged attacks have [ASSAULT].\n\nTACTICAL DOCTRINE\nWhen this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge.\nUnless otherwise stated:\n• You can only select each combat doctrine once per battle.\n• Only one combat doctrine can be active for each unit. If a rule makes a combat doctrine active for a unit, any combat doctrine previously active for that unit is no longer active for that unit.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Litany of Hate",
+          "description": "This unit’s melee attacks have [Lance].",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        },
+        {
+          "name": "Spiritual Leader (Once per battle round, per unit)",
+          "description": "At the start of any phase, you can select one friendly battle-shocked ADEPTUS ASTARTES unit within 6\" of this model. That unit is no longer battle-shocked.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        }
+      ],
+      "keywords": [
+        {
+          "name": "Adeptus Astartes",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Imperium",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Tacticus",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Infantry",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Character",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Explosives",
+          "model": "",
+          "factionKeyword": false
+        }
+      ],
+      "optionsSource": [],
+      "costs": [
+        {
+          "text": "YOUR UNIT COSTS",
+          "cost": null
+        },
+        {
+          "text": "1 model",
+          "cost": 60
+        }
+      ],
+      "composition": [
+        "1 Chaplain model"
+      ],
+      "leadsToIds": [
+        "000001997",
+        "000002098",
+        "000003698",
+        "000000071",
+        "000000126",
+        "000002780",
+        "000002799",
+        "000001154",
+        "000002255",
+        "000001606",
+        "000004175",
+        "000002783",
+        "000002798",
+        "000001157"
+      ],
+      "leadsToNames": [
+        "Death Company Marines",
+        "Hellblaster Squad",
+        "Inner Circle Companions",
+        "Bladeguard Veteran Squad",
+        "Infernus Squad",
+        "Fortis Kill Team",
+        "Crusader Squad",
+        "Vanguard Veteran Squad",
+        "Sternguard Veteran Squad",
+        "Assault Intercessor Squad",
+        "Decimus Kill Team",
+        "Deathwatch Veterans",
+        "Sword Brethren Squad",
+        "Intercessor Squad"
+      ],
+      "leaderIds": [],
+      "leaderNames": []
+    },
+    {
+      "id": "000004231",
+      "name": "Eradicator Squad with Heavy Bolters",
+      "factionId": "SM",
+      "role": "Infantry",
+      "legend": "The heavy Mk X Gravis armour of these fire support specialists allows them to weather storms of incoming projectiles. Standing firm, they return fire with their brutal heavy bolters, scything down enemy infantry and blowing apart the foe’s light armoured vehicles with well-placed shots to weak spots in their targets’ hulls.",
+      "transport": "",
+      "isSupport": false,
+      "link": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Eradicator-Squad-with-Heavy-Bolters",
+      "source": {
+        "name": "Space Marines",
+        "type": "App",
+        "edition": "11",
+        "version": "",
+        "errataDate": "01.01.0001 0:00:00"
+      },
+      "damaged": {
+        "w": "",
+        "description": ""
+      },
+      "leaderHead": "",
+      "leaderFooter": "",
+      "models": [
+        {
+          "name": "Eradicator",
+          "M": "5\"",
+          "T": "6",
+          "Sv": "3+",
+          "invSv": "-",
+          "invSvNote": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "1",
+          "baseSize": "40mm",
+          "baseSizeNote": ""
+        },
+        {
+          "name": "Eradicator Sergeant",
+          "M": "5\"",
+          "T": "6",
+          "Sv": "3+",
+          "invSv": "-",
+          "invSvNote": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "1",
+          "baseSize": "40mm",
+          "baseSizeNote": ""
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Bolt Pistol",
+          "description": "CLOSE-QUARTERS",
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Heavy Bolter",
+          "description": "Sustained Hits 1, Rapid Fire 2, Heavy",
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Ceramite Fists",
+          "description": "",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Combat Doctrines",
+          "description": "At the start of your Command phase, you can select one combat doctrine listed below. If you do, that combat doctrine is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command phase.\n\nASSAULT DOCTRINE\nWhen this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n\nDEVASTATOR DOCTRINE\nThis unit’s ranged attacks have [ASSAULT].\n\nTACTICAL DOCTRINE\nWhen this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge.\nUnless otherwise stated:\n• You can only select each combat doctrine once per battle.\n• Only one combat doctrine can be active for each unit. If a rule makes a combat doctrine active for a unit, any combat doctrine previously active for that unit is no longer active for that unit.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Overlapping Destruction",
+          "description": "In your Shooting phase, you can select one enemy unit. This unit’s Heavy Bolter weapons that target that enemy unit have [Blast 1].",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        }
+      ],
+      "keywords": [
+        {
+          "name": "Adeptus Astartes",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Infantry",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Explosives",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Gravis",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Imperium",
+          "model": "",
+          "factionKeyword": false
+        }
+      ],
+      "optionsSource": [],
+      "costs": [
+        {
+          "text": "YOUR 1ST TO 2ND UNITS COST",
+          "cost": null
+        },
+        {
+          "text": "3 models",
+          "cost": 100
+        },
+        {
+          "text": "6 models",
+          "cost": 215
+        },
+        {
+          "text": "YOUR 3RD+ UNIT COSTS",
+          "cost": null
+        },
+        {
+          "text": "3 models",
+          "cost": 130
+        },
+        {
+          "text": "6 models",
+          "cost": 245
+        }
+      ],
+      "composition": [
+        "1 Eradicator Sergeant model",
+        "2-5 Eradicator models"
+      ],
+      "leadsToIds": [],
+      "leadsToNames": [],
+      "leaderIds": [
+        "000001172",
+        "000000127",
+        "000004246",
+        "000000060",
+        "000002473"
+      ],
+      "leaderNames": [
+        "Captain In Gravis Armour",
+        "Iron Father Feirros",
+        "Marneus Calgar",
+        "Apothecary Biologis",
+        "Tor Garadon"
+      ]
+    },
+    {
+      "id": "000004249",
+      "name": "Eradicator Squad with Melta Rifles",
+      "factionId": "SM",
+      "role": "Infantry",
+      "legend": "",
+      "transport": "",
+      "isSupport": false,
+      "link": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Eradicator-Squad-with-Melta-Rifles",
+      "source": {
+        "name": "Space Marines",
+        "type": "App",
+        "edition": "11",
+        "version": "",
+        "errataDate": "01.01.0001 0:00:00"
+      },
+      "damaged": {
+        "w": "",
+        "description": ""
+      },
+      "leaderHead": "",
+      "leaderFooter": "",
+      "models": [
+        {
+          "name": "Eradicator",
+          "M": "5\"",
+          "T": "6",
+          "Sv": "3+",
+          "invSv": "-",
+          "invSvNote": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "1",
+          "baseSize": "40mm",
+          "baseSizeNote": ""
+        },
+        {
+          "name": "Eradicator Sergeant",
+          "M": "5\"",
+          "T": "6",
+          "Sv": "3+",
+          "invSv": "-",
+          "invSvNote": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "1",
+          "baseSize": "40mm",
+          "baseSizeNote": ""
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Bolt Pistol",
+          "description": "CLOSE-QUARTERS",
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Melta Rifle",
+          "description": "Melta 2",
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-3",
+          "D": "D3+2"
+        },
+        {
+          "name": "Melta Rifle - Hunter",
+          "description": "Melta 2",
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "2",
+          "S": "12",
+          "AP": "-3",
+          "D": "D3+2"
+        },
+        {
+          "name": "Multi-melta",
+          "description": "Melta 3",
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-3",
+          "D": "D3+2"
+        },
+        {
+          "name": "Multi-melta - Hunter",
+          "description": "Melta 3",
+          "range": "18",
+          "type": "Ranged",
+          "A": "2",
+          "BS_WS": "2",
+          "S": "12",
+          "AP": "-3",
+          "D": "D3+2"
+        },
+        {
+          "name": "Ceramite Fists",
+          "description": "",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Combat Doctrines",
+          "description": "At the start of your Command phase, you can select one combat doctrine listed below. If you do, that combat doctrine is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command phase.\n\nASSAULT DOCTRINE\nWhen this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n\nDEVASTATOR DOCTRINE\nThis unit’s ranged attacks have [ASSAULT].\n\nTACTICAL DOCTRINE\nWhen this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge.\nUnless otherwise stated:\n• You can only select each combat doctrine once per battle.\n• Only one combat doctrine can be active for each unit. If a rule makes a combat doctrine active for a unit, any combat doctrine previously active for that unit is no longer active for that unit.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Total Obliteration",
+          "description": "This unit’s ranged attacks can re-roll damage rolls.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        }
+      ],
+      "keywords": [
+        {
+          "name": "Adeptus Astartes",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Gravis",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Imperium",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Explosives",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Infantry",
+          "model": "",
+          "factionKeyword": false
+        }
+      ],
+      "optionsSource": [
+        {
+          "line": 1,
+          "text": "For every 3 models in this unit, 1 Eradicator model can have their Melta Rifle replaced with 1 Multi-melta.",
+          "button": "•"
+        }
+      ],
+      "costs": [
+        {
+          "text": "YOUR 1ST TO 2ND UNITS COST",
+          "cost": null
+        },
+        {
+          "text": "3 models",
+          "cost": 100
+        },
+        {
+          "text": "6 models",
+          "cost": 200
+        },
+        {
+          "text": "YOUR 3RD+ UNIT COSTS",
+          "cost": null
+        },
+        {
+          "text": "3 models",
+          "cost": 120
+        },
+        {
+          "text": "6 models",
+          "cost": 220
+        }
+      ],
+      "composition": [
+        "1 Eradicator Sergeant model",
+        "2-5 Eradicator models"
+      ],
+      "leadsToIds": [],
+      "leadsToNames": [],
+      "leaderIds": [
+        "000002473",
+        "000000060",
+        "000001172",
+        "000000127",
+        "000002726",
+        "000004246"
+      ],
+      "leaderNames": [
+        "Tor Garadon",
+        "Apothecary Biologis",
+        "Captain In Gravis Armour",
+        "Iron Father Feirros",
+        "Vulkan He’stan",
+        "Marneus Calgar"
+      ]
+    },
+    {
+      "id": "000000071",
+      "name": "Bladeguard Veteran Squad",
+      "factionId": "SM",
+      "role": "Infantry",
+      "legend": "Bladeguard Veterans are inexorable warriors, advancing relentlessly with blades held high – the very image of noble knights of myth. Members of their Chapter’s elite 1st Company of Veterans, each of these vastly experienced Space Marines has fought to preserve the Imperium across uncounted worlds.",
+      "transport": "",
+      "isSupport": false,
+      "link": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Bladeguard-Veteran-Squad",
+      "source": {
+        "name": "Space Marines",
+        "type": "App",
+        "edition": "11",
+        "version": "",
+        "errataDate": "01.01.0001 0:00:00"
+      },
+      "damaged": {
+        "w": "",
+        "description": ""
+      },
+      "leaderHead": "",
+      "leaderFooter": "",
+      "models": [
+        {
+          "name": "Bladeguard Veteran Sergeant",
+          "M": "6\"",
+          "T": "5",
+          "Sv": "3+",
+          "invSv": "4",
+          "invSvNote": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "1",
+          "baseSize": "40mm",
+          "baseSizeNote": ""
+        },
+        {
+          "name": "Bladeguard Veteran",
+          "M": "6\"",
+          "T": "5",
+          "Sv": "3+",
+          "invSv": "4",
+          "invSvNote": "",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "1",
+          "baseSize": "40mm",
+          "baseSizeNote": ""
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Bolt Pistol",
+          "description": "CLOSE-QUARTERS",
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Neo-volkite Pistol",
+          "description": "CLOSE-QUARTERS, Devastating Wounds",
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "2"
+        },
+        {
+          "name": "Plasma Pistol - Standard",
+          "description": "CLOSE-QUARTERS",
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        {
+          "name": "Plasma Pistol - Supercharge",
+          "description": "Hazardous, CLOSE-QUARTERS",
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Master-crafted Power Sword",
+          "description": "",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Combat Doctrines",
+          "description": "At the start of your Command phase, you can select one combat doctrine listed below. If you do, that combat doctrine is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command phase.\n\nASSAULT DOCTRINE\nWhen this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n\nDEVASTATOR DOCTRINE\nThis unit’s ranged attacks have [ASSAULT].\n\nTACTICAL DOCTRINE\nWhen this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge.\nUnless otherwise stated:\n• You can only select each combat doctrine once per battle.\n• Only one combat doctrine can be active for each unit. If a rule makes a combat doctrine active for a unit, any combat doctrine previously active for that unit is no longer active for that unit.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Bladeguard (Once per turn, per unit)",
+          "description": "In the Fight phase, when this unit is selected to fight or when an enemy unit targets this unit, you can select one of the following:\n• This unit’s melee attacks have +1 to hit rolls.\n• Or: Attacks that target this unit have -1 to hit rolls.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        }
+      ],
+      "keywords": [
+        {
+          "name": "Adeptus Astartes",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Deathwing",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Tacticus",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Imperium",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Explosives",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Infantry",
+          "model": "",
+          "factionKeyword": false
+        }
+      ],
+      "optionsSource": [
+        {
+          "line": 1,
+          "text": "The Bladeguard Veteran Sergeant can have their Heavy bolt pistol replaced with one of the following:• 1 Neo-volkite Pistol\n• 1 Plasma Pistol",
+          "button": "•"
+        }
+      ],
+      "costs": [
+        {
+          "text": "YOUR 1ST TO 2ND UNITS COST",
+          "cost": null
+        },
+        {
+          "text": "3 models",
+          "cost": 90
+        },
+        {
+          "text": "6 models",
+          "cost": 180
+        },
+        {
+          "text": "YOUR 3RD+ UNIT COSTS",
+          "cost": null
+        },
+        {
+          "text": "3 models",
+          "cost": 110
+        },
+        {
+          "text": "6 models",
+          "cost": 200
+        }
+      ],
+      "composition": [
+        "1 Bladeguard Veteran Sergeant model",
+        "2-5 Bladeguard Veteran models"
+      ],
+      "leadsToIds": [],
+      "leadsToNames": [],
+      "leaderIds": [
+        "000001346",
+        "000002794",
+        "000002707",
+        "000004187",
+        "000000226",
+        "000001165",
+        "000002709",
+        "000001174",
+        "000002100",
+        "000000218",
+        "000000073",
+        "000000297",
+        "000004130",
+        "000004248",
+        "000000292",
+        "000004246",
+        "000000225",
+        "000004188",
+        "000002796",
+        "000001611",
+        "000002726",
+        "000002296",
+        "000002773",
+        "000002793",
+        "000004129",
+        "000000158"
+      ],
+      "leaderNames": [
+        "Lieutenant",
+        "High Marshal Helbrecht",
+        "Judiciar",
+        "Captain Titus",
+        "Ezekiel",
+        "Bladeguard Ancient",
+        "Kor’sarro Khan",
+        "Chaplain",
+        "Adrax Agatone",
+        "Azrael",
+        "Captain",
+        "Ulrik The Slayer",
+        "Wolf Guard Battle Leader",
+        "Kaius Konorius",
+        "Njal Stormcaller",
+        "Marneus Calgar",
+        "Asmodai",
+        "Wardens of Ultramar",
+        "Marshal",
+        "Chief Librarian Tigurius",
+        "Vulkan He’stan",
+        "Lazarus",
+        "Apothecary",
+        "Castellan",
+        "Wolf Priest",
+        "Sanguinary Priest"
+      ]
+    },
+    {
+      "id": "000001165",
+      "name": "Bladeguard Ancient",
+      "factionId": "SM",
+      "role": "Infantry Character",
+      "legend": "Bladeguard Ancients bear the honour of carrying their Chapter’s precious standards into battle. The most revered of these incorporate the remains of fallen heroes of the Chapter; in their presence, battle-brothers are inspired to emulate the legendary deeds of these paragons of old.",
+      "transport": "",
+      "isSupport": true,
+      "link": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Bladeguard-Ancient",
+      "source": {
+        "name": "Space Marines",
+        "type": "App",
+        "edition": "11",
+        "version": "",
+        "errataDate": "01.01.0001 0:00:00"
+      },
+      "damaged": {
+        "w": "",
+        "description": ""
+      },
+      "leaderHead": "",
+      "leaderFooter": "",
+      "models": [
+        {
+          "name": "Bladeguard Ancient",
+          "M": "6\"",
+          "T": "5",
+          "Sv": "3+",
+          "invSv": "4",
+          "invSvNote": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "3",
+          "baseSize": "40mm",
+          "baseSizeNote": ""
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Bolt Pistol",
+          "description": "CLOSE-QUARTERS",
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Relics of Battle",
+          "description": "",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Support",
+          "description": "SUPPORT24.34\n\nSpecialist combatants may be assigned to front-line squads to bolster their fighting effectiveness.\nBefore the battle, in the Muster Armies step, for each leader and support unit in your army, you can select one friendly bodyguard unit that unit can lead. That unit will then lead that bodyguard unit for the battle and form an attached unit with it.\n\nUnless otherwise stated, each bodyguard unit can only have one leader unit and one support unit attached to it.",
+          "type": "Core",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Combat Doctrines",
+          "description": "At the start of your Command phase, you can select one combat doctrine listed below. If you do, that combat doctrine is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command phase.\n\nASSAULT DOCTRINE\nWhen this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n\nDEVASTATOR DOCTRINE\nThis unit’s ranged attacks have [ASSAULT].\n\nTACTICAL DOCTRINE\nWhen this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge.\nUnless otherwise stated:\n• You can only select each combat doctrine once per battle.\n• Only one combat doctrine can be active for each unit. If a rule makes a combat doctrine active for a unit, any combat doctrine previously active for that unit is no longer active for that unit.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Raise the Banner",
+          "description": "At the end of your Movement phase, if this unit is controlling an objective, that objective is secured.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        },
+        {
+          "name": "Deeds of Legend",
+          "description": "While this unit is within range of an objective, this unit’s melee attacks have +1 A.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        }
+      ],
+      "keywords": [
+        {
+          "name": "Adeptus Astartes",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Infantry",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Ancient",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Character",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Explosives",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Imperium",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Tacticus",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Deathwing",
+          "model": "",
+          "factionKeyword": false
+        }
+      ],
+      "optionsSource": [],
+      "costs": [
+        {
+          "text": "YOUR UNIT COSTS",
+          "cost": null
+        },
+        {
+          "text": "1 model",
+          "cost": 70
+        }
+      ],
+      "composition": [
+        "1 Bladeguard Ancient model"
+      ],
+      "leadsToIds": [
+        "000000071"
+      ],
+      "leadsToNames": [
+        "Bladeguard Veteran Squad"
+      ],
+      "leaderIds": [],
+      "leaderNames": []
+    },
+    {
+      "id": "000002773",
+      "name": "Apothecary",
+      "factionId": "SM",
+      "role": "Infantry Character",
+      "legend": "In addition to battlefield surgery, it is the Apothecary’s duty to recover the gene-seed of the fallen, and thus preserve the Chapter for later generations. For this task the Apothecary is equipped to bring peace to those too wounded to save, and efficiently extract their.precious progenoid glands.",
+      "transport": "",
+      "isSupport": true,
+      "link": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Apothecary",
+      "source": {
+        "name": "Space Marines",
+        "type": "App",
+        "edition": "11",
+        "version": "",
+        "errataDate": "01.01.0001 0:00:00"
+      },
+      "damaged": {
+        "w": "",
+        "description": ""
+      },
+      "leaderHead": "",
+      "leaderFooter": "You can attach this model to one of the above units even if one CAPTAIN, CHAPTER MASTER or LIEUTENANT model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
+      "models": [
+        {
+          "name": "Apothecary",
+          "M": "6\"",
+          "T": "5",
+          "Sv": "3+",
+          "invSv": "-",
+          "invSvNote": "",
+          "W": "4",
+          "Ld": "6+",
+          "OC": "1",
+          "baseSize": "40mm",
+          "baseSizeNote": ""
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Absolvor Bolt Pistol",
+          "description": "CLOSE-QUARTERS",
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Reductor Pistol",
+          "description": "Extra Attacks",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-4",
+          "D": "2"
+        },
+        {
+          "name": "Servo-armature",
+          "description": "",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Support",
+          "description": "SUPPORT24.34\n\nSpecialist combatants may be assigned to front-line squads to bolster their fighting effectiveness.\nBefore the battle, in the Muster Armies step, for each leader and support unit in your army, you can select one friendly bodyguard unit that unit can lead. That unit will then lead that bodyguard unit for the battle and form an attached unit with it.\n\nUnless otherwise stated, each bodyguard unit can only have one leader unit and one support unit attached to it.",
+          "type": "Core",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Combat Doctrines",
+          "description": "At the start of your Command phase, you can select one combat doctrine listed below. If you do, that combat doctrine is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command phase.\n\nASSAULT DOCTRINE\nWhen this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n\nDEVASTATOR DOCTRINE\nThis unit’s ranged attacks have [ASSAULT].\n\nTACTICAL DOCTRINE\nWhen this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge.\nUnless otherwise stated:\n• You can only select each combat doctrine once per battle.\n• Only one combat doctrine can be active for each unit. If a rule makes a combat doctrine active for a unit, any combat doctrine previously active for that unit is no longer active for that unit.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Narthecium",
+          "description": "In your Command phase, this unit heals D3+1 wounds.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        }
+      ],
+      "keywords": [
+        {
+          "name": "Adeptus Astartes",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Infantry",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Tacticus",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Imperium",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Character",
+          "model": "",
+          "factionKeyword": false
+        }
+      ],
+      "optionsSource": [],
+      "costs": [
+        {
+          "text": "YOUR UNIT COSTS",
+          "cost": null
+        },
+        {
+          "text": "1 model",
+          "cost": 45
+        }
+      ],
+      "composition": [
+        "1 Apothecary model"
+      ],
+      "leadsToIds": [
+        "000002783",
+        "000003698",
+        "000002772",
+        "000002270",
+        "000004175",
+        "000002798",
+        "000002799",
+        "000001157",
+        "000002255",
+        "000002780",
+        "000000126",
+        "000000071",
+        "000002098",
+        "000001606"
+      ],
+      "leadsToNames": [
+        "Deathwatch Veterans",
+        "Inner Circle Companions",
+        "Company Heroes",
+        "Desolation Squad",
+        "Decimus Kill Team",
+        "Sword Brethren Squad",
+        "Crusader Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Fortis Kill Team",
+        "Infernus Squad",
+        "Bladeguard Veteran Squad",
+        "Hellblaster Squad",
+        "Assault Intercessor Squad"
+      ],
+      "leaderIds": [],
+      "leaderNames": []
+    },
+    {
+      "id": "000000060",
+      "name": "Apothecary Biologis",
+      "factionId": "SM",
+      "role": "Infantry Character",
+      "legend": "Clad in Gravis armour, the Apothecary Biologis can advance through storms of enemy fire, vivispectrum at the ready to take bio-material samples for later analysis, whether that be xenos flesh, viral weapons casings or esoteric gene-tech.",
+      "transport": "",
+      "isSupport": true,
+      "link": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Apothecary-Biologis",
+      "source": {
+        "name": "Space Marines",
+        "type": "App",
+        "edition": "11",
+        "version": "",
+        "errataDate": "01.01.0001 0:00:00"
+      },
+      "damaged": {
+        "w": "",
+        "description": ""
+      },
+      "leaderHead": "",
+      "leaderFooter": "",
+      "models": [
+        {
+          "name": "Apothecary Biologis",
+          "M": "5\"",
+          "T": "6",
+          "Sv": "3+",
+          "invSv": "-",
+          "invSvNote": "",
+          "W": "5",
+          "Ld": "6+",
+          "OC": "1",
+          "baseSize": "40mm",
+          "baseSizeNote": ""
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Absolvor Bolt Pistol",
+          "description": "CLOSE-QUARTERS",
+          "range": "18",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        {
+          "name": "Servo-armature",
+          "description": "",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Support",
+          "description": "SUPPORT24.34\n\nSpecialist combatants may be assigned to front-line squads to bolster their fighting effectiveness.\nBefore the battle, in the Muster Armies step, for each leader and support unit in your army, you can select one friendly bodyguard unit that unit can lead. That unit will then lead that bodyguard unit for the battle and form an attached unit with it.\n\nUnless otherwise stated, each bodyguard unit can only have one leader unit and one support unit attached to it.",
+          "type": "Core",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Combat Doctrines",
+          "description": "At the start of your Command phase, you can select one combat doctrine listed below. If you do, that combat doctrine is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command phase.\n\nASSAULT DOCTRINE\nWhen this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n\nDEVASTATOR DOCTRINE\nThis unit’s ranged attacks have [ASSAULT].\n\nTACTICAL DOCTRINE\nWhen this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge.\nUnless otherwise stated:\n• You can only select each combat doctrine once per battle.\n• Only one combat doctrine can be active for each unit. If a rule makes a combat doctrine active for a unit, any combat doctrine previously active for that unit is no longer active for that unit.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Vivispectral Analysis Targeting",
+          "description": "This unit’s attacks have [Lethal Hits: non-Vehicle].",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        }
+      ],
+      "keywords": [
+        {
+          "name": "Adeptus Astartes",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Apothecary",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Imperium",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Character",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Gravis",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Infantry",
+          "model": "",
+          "factionKeyword": false
+        }
+      ],
+      "optionsSource": [],
+      "costs": [
+        {
+          "text": "YOUR UNIT COSTS",
+          "cost": null
+        },
+        {
+          "text": "1 model",
+          "cost": 60
+        }
+      ],
+      "composition": [
+        "1 Apothecary Biologis model"
+      ],
+      "leadsToIds": [
+        "000002099",
+        "000004249",
+        "000004231",
+        "000001177",
+        "000002781"
+      ],
+      "leadsToNames": [
+        "Aggressor Squad",
+        "Eradicator Squad with Melta Rifles",
+        "Eradicator Squad with Heavy Bolters",
+        "Heavy Intercessor Squad",
+        "Indomitor Kill Team"
+      ],
+      "leaderIds": [],
+      "leaderNames": []
+    },
+    {
+      "id": "000000856",
+      "name": "Knight Errant",
+      "factionId": "QI",
+      "role": "Vehicle Character",
+      "legend": "These aggressive, close-range assault Knights excel at hunting and slaying enemy tanks and war beasts. They plunge aggressively into the fiercest fighting, unleashing hissing blasts of super-heated energy and deadly sweeps of their huge combat weapon. Theirs is a ceaseless hunt; they move on to new targets while melted ruin cools behind them.",
+      "transport": "",
+      "isSupport": false,
+      "link": "https://wahapedia.ru/wh40k11ed/factions/imperial-knights/Knight-Errant",
+      "source": {
+        "name": "Imperial Knights",
+        "type": "App",
+        "edition": "11",
+        "version": "1.2",
+        "errataDate": "26.08.2026 0:00:00"
+      },
+      "damaged": {
+        "w": "1-9",
+        "description": "While this model has 1‑9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "leaderHead": "",
+      "leaderFooter": "",
+      "models": [
+        {
+          "name": "Knight Errant",
+          "M": "10\"",
+          "T": "11",
+          "Sv": "3+",
+          "invSv": "5",
+          "invSvNote": "* against ranged attacks only",
+          "W": "26",
+          "Ld": "6+",
+          "OC": "10",
+          "baseSize": "170 x 109mm",
+          "baseSizeNote": ""
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Ironstorm missile pod",
+          "description": "blast, indirect fire",
+          "range": "48",
+          "type": "Ranged",
+          "A": "D6+1",
+          "BS_WS": "3",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        {
+          "name": "Meltagun",
+          "description": "melta 2",
+          "range": "12",
+          "type": "Ranged",
+          "A": "1",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Questoris heavy stubber",
+          "description": "rapid fire 3",
+          "range": "36",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        {
+          "name": "Stormspear rocket pod",
+          "description": "",
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "8",
+          "AP": "-2",
+          "D": "D6"
+        },
+        {
+          "name": "Thermal cannon",
+          "description": "blast, melta 6",
+          "range": "24",
+          "type": "Ranged",
+          "A": "2D3",
+          "BS_WS": "3",
+          "S": "12",
+          "AP": "-4",
+          "D": "D6"
+        },
+        {
+          "name": "Twin Icarus autocannon",
+          "description": "anti-fly 2+, twin-linked",
+          "range": "48",
+          "type": "Ranged",
+          "A": "3",
+          "BS_WS": "3",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        {
+          "name": "Reaper chainsword – strike",
+          "description": "",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "14",
+          "AP": "-4",
+          "D": "6"
+        },
+        {
+          "name": "Reaper chainsword – sweep",
+          "description": "",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "12",
+          "BS_WS": "3",
+          "S": "9",
+          "AP": "-3",
+          "D": "2"
+        },
+        {
+          "name": "Thunderstrike gauntlet – strike",
+          "description": "",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "4",
+          "BS_WS": "3",
+          "S": "20",
+          "AP": "-3",
+          "D": "8"
+        },
+        {
+          "name": "Thunderstrike gauntlet – sweep",
+          "description": "",
+          "range": "Melee",
+          "type": "Melee",
+          "A": "8",
+          "BS_WS": "3",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Deadly Demise",
+          "description": "DEADLY DEMISE24.08\n\nFrom detonating ammo stores to corrosive innards or frenzied death throes, some targets are deadly even in defeat.\nThis ability always takes the form Deadly Demise X. Each time a model with this ability is destroyed, after the units embarked within it (if any) have made their emergency disembark moves, roll one D6. On a 6, that model suffers a deadly demise; each unit within 6\" of that model suffers a number of mortal wounds denoted by X (if this is a random number, roll separately for each unit within 6\").",
+          "type": "Core",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Code Chivalric",
+          "description": "If your Army Faction is IMPERIAL KNIGHTS, at the end of the Read Mission Objectives step, you must determine your army’s Oath for the coming battle. An Oath consists of two parts - one Deed and one Quality. There are three options for each part, shown below.\n\nTo determine your army’s Deed, you can either select one Deed or you can randomly select one Deed by rolling a D6 and consulting the relevant table below. The selected Deed will describe what needs to be achieved in order to complete that Deed.\n\nTo determine your army’s Quality, you can either select one Quality or you can randomly select one Quality by rolling a D6 and consulting the relevant table below. Until the end of the battle, the ability described in the Quality selected applies to all models in your army with this ability.\n\nThe first time your selected Deed is completed your Oath is fulfilled and, until the end of the battle, your army becomes Honoured and you gain 2CP, or 3CP if you randomly selected your Deed and/or Quality (CP gained in this way are an exemption to the Core Rules that limit the maximum number of CP you can gain per battle round to 1).\n\nDeed\nD6We vow to lay low the tyrant...\nAt the start of the battle, select one CHARACTER model in your opponent’s army. This Deed is completed at the end of a turn if that CHARACTER is destroyed. We swear to reclaim the realm...\nThis deed is completed at the end of your opponent’s turn if you control more objective markers than your opponent. We pledge to reap a great tally...\nThis deed is completed at the end of the battle round if the number of enemy units destroyed this battle round is greater than the battle round number even if those units are subsequently returned to the battlefield (for example, two destroyed enemy units in the first battle round). \nQuality\nD6...with our martial valour risen over all.\nEach time this model is selected to shoot or fight, you can re-roll one Hit roll and you can re-roll one Wound roll. ...and we are eager for the challenge.\nAdd 2\" to this model’s Move characteristic and add 1 to Advance and Charge rolls made for this model. ...yet shall our legacy be unsullied.\nImprove this model’s Objective Control characteristic by 2 and its Leadership characteristic by 1.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Super-heavy Walker",
+          "description": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4\" or less in height. When doing so:\n• It can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them.\n• It can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a 1, that model is Battle-shocked.",
+          "type": "Faction",
+          "model": "",
+          "shared": true
+        },
+        {
+          "name": "Errant’s Duty (Bondsman)",
+          "description": "While a model is affected by this ability, you can re-roll Advance rolls made for that model and ranged weapons equipped by that model have the [ASSAULT] ability.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        },
+        {
+          "name": "Aggressive Assault",
+          "description": "Each time this model makes a ranged attack that targets the closest eligible target, add 1 to the Hit roll.",
+          "type": "Datasheet",
+          "model": "",
+          "shared": false
+        }
+      ],
+      "keywords": [
+        {
+          "name": "Imperial Knights",
+          "model": "",
+          "factionKeyword": true
+        },
+        {
+          "name": "Titanic",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Towering",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Questoris",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Character",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Imperium",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Walker",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Knight Errant",
+          "model": "",
+          "factionKeyword": false
+        },
+        {
+          "name": "Vehicle",
+          "model": "",
+          "factionKeyword": false
+        }
+      ],
+      "optionsSource": [
+        {
+          "line": 1,
+          "text": "This model’s meltagun can be replaced with 1 Questoris heavy stubber.",
+          "button": "•"
+        },
+        {
+          "line": 2,
+          "text": "This model’s reaper chainsword can be replaced with 1 thunderstrike gauntlet.",
+          "button": "•"
+        },
+        {
+          "line": 3,
+          "text": "This model can be equipped with one of the following:• 1 ironstorm missile pod\n• 1 stormspear rocket pod\n• 1 twin Icarus autocannon",
+          "button": "•"
+        }
+      ],
+      "costs": [
+        {
+          "text": "YOUR 1ST TO 2ND UNITS COST",
+          "cost": null
+        },
+        {
+          "text": "1 model",
+          "cost": 355
+        },
+        {
+          "text": "YOUR 3RD+ UNIT COSTS",
+          "cost": null
+        },
+        {
+          "text": "1 model",
+          "cost": 370
+        }
+      ],
+      "composition": [
+        "1 Knight Errant"
+      ],
+      "leadsToIds": [],
+      "leadsToNames": [],
+      "leaderIds": [],
+      "leaderNames": []
+    }
+  ]
+}

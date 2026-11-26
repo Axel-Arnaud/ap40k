@@ -1,0 +1,902 @@
+{
+  "schemaVersion": 1,
+  "sourceVersion": "2026-11-23 01:43:36",
+  "sourceHash": "ffa445fe84a48ebcab5367fb44589ea1a659515eb1084500b330f2852b4d8d80",
+  "points": {
+    "date": "2026-11-23",
+    "label": "Points Wahapedia wh40k11ed — 23/11/2026",
+    "unit": "pts",
+    "rounding": "Aucun arrondi : les coûts sont additionnés tels quels (entiers publiés par la source).",
+    "startingStrength": "Le coût de base correspond à l'effectif minimum publié dans « YOUR UNIT COSTS » ou « YOUR 1ST TO 2ND UNITS COST ».",
+    "tiers": "Les paliers « YOUR 3RD+ UNIT COSTS » ne sont pas appliqués automatiquement : le total reste indicatif."
+  },
+  "capLimits": {
+    "maxUnits": 20,
+    "maxLeadersPerUnit": 1,
+    "maxSupportPerUnit": 1,
+    "note": "Limites indicatives pour une petite liste ; aucune validation d'armée complète."
+  },
+  "leaders": [
+    {
+      "id": "000000218",
+      "name": "Azrael",
+      "kind": "leader",
+      "sourceRef": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Azrael",
+      "excerpt": "Before the battle, in the Muster Armies step, for each leader and support unit in your army, you can select one friendly bodyguard unit that unit can lead.",
+      "leadsTo": [
+        "000003698",
+        "000001606",
+        "000000071"
+      ],
+      "leadsToOtherNames": [
+        "Intercessor Squad",
+        "Infernus Squad",
+        "Company Heroes",
+        "Sternguard Veteran Squad",
+        "Hellblaster Squad"
+      ],
+      "bonuses": [
+        {
+          "name": "Supreme Grand Master",
+          "text": "This unit’s attacks have [SUSTAINED HITS 1].",
+          "condition": "",
+          "stacking": false
+        },
+        {
+          "name": "The Lion Helm",
+          "text": "This unit has 4+ InSv.",
+          "condition": "",
+          "stacking": false
+        },
+        {
+          "name": "Watcher in the Dark",
+          "text": "In any phase, when this unit suffers a mortal wound, this unit has Feel No Pain 4+ against mortal wounds.",
+          "condition": "Once per battle, per unit",
+          "stacking": false
+        },
+        {
+          "name": "Masterful Tactician",
+          "text": "Select up to one visible friendly ADEPTUS ASTARTES unit within 9\" and one combat doctrine; that doctrine is active for that unit until the start of your next Command phase.",
+          "condition": "Your Movement phase",
+          "stacking": false
+        }
+      ]
+    },
+    {
+      "id": "000000225",
+      "name": "Asmodai",
+      "kind": "leader",
+      "sourceRef": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Asmodai",
+      "excerpt": "Before the battle, in the Muster Armies step, for each leader and support unit in your army, you can select one friendly bodyguard unit that unit can lead.",
+      "leadsTo": [
+        "000001606",
+        "000000071",
+        "000003698"
+      ],
+      "leadsToOtherNames": [
+        "Intercessor Squad",
+        "Infernus Squad",
+        "Sternguard Veteran Squad",
+        "Hellblaster Squad"
+      ],
+      "bonuses": [
+        {
+          "name": "Exemplar of Hate",
+          "text": "This unit’s melee attacks can re-roll hit rolls.",
+          "condition": "",
+          "stacking": false
+        },
+        {
+          "name": "Feared Interrogator",
+          "text": "Each enemy CHARACTER unit within 6\" makes a battle-shock roll with -1.",
+          "condition": "Start of the Fight phase",
+          "stacking": false
+        }
+      ]
+    },
+    {
+      "id": "000002707",
+      "name": "Judiciar",
+      "kind": "support",
+      "sourceRef": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Judiciar",
+      "excerpt": "You can attach this model to one of the above units even if one CAPTAIN, CHAPTER MASTER or LIEUTENANT model has already been attached to it.",
+      "leadsTo": [
+        "000001606",
+        "000003698",
+        "000000071"
+      ],
+      "leadsToOtherNames": [
+        "Sword Brethren Squad",
+        "Sternguard Veteran Squad",
+        "Intercessor Squad",
+        "Infernus Squad",
+        "Vanguard Veteran Squad",
+        "Deathwatch Veterans",
+        "Crusader Squad",
+        "Fortis Kill Team",
+        "Decimus Kill Team"
+      ],
+      "bonuses": [
+        {
+          "name": "Tempormortis",
+          "text": "This unit has Fights First.",
+          "condition": "",
+          "stacking": false
+        }
+      ]
+    },
+    {
+      "id": "000001174",
+      "name": "Chaplain",
+      "kind": "leader",
+      "sourceRef": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Chaplain",
+      "excerpt": "Before the battle, in the Muster Armies step, for each leader and support unit in your army, you can select one friendly bodyguard unit that unit can lead.",
+      "leadsTo": [
+        "000003698",
+        "000000071",
+        "000001606"
+      ],
+      "leadsToOtherNames": [
+        "Death Company Marines",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Fortis Kill Team",
+        "Crusader Squad",
+        "Vanguard Veteran Squad",
+        "Sternguard Veteran Squad",
+        "Deathwatch Veterans",
+        "Sword Brethren Squad",
+        "Intercessor Squad",
+        "Decimus Kill Team"
+      ],
+      "bonuses": [
+        {
+          "name": "Litany of Hate",
+          "text": "This unit’s melee attacks have [Lance].",
+          "condition": "",
+          "stacking": false
+        },
+        {
+          "name": "Spiritual Leader",
+          "text": "Select one friendly battle-shocked ADEPTUS ASTARTES unit within 6\"; that unit is no longer battle-shocked.",
+          "condition": "Once per battle round, per unit",
+          "stacking": false
+        }
+      ]
+    },
+    {
+      "id": "000001172",
+      "name": "Captain In Gravis Armour",
+      "kind": "leader",
+      "sourceRef": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Captain-in-Gravis-Armour",
+      "excerpt": "Before the battle, in the Muster Armies step, for each leader and support unit in your army, you can select one friendly bodyguard unit that unit can lead.",
+      "leadsTo": [
+        "000004231",
+        "000004249"
+      ],
+      "leadsToOtherNames": [
+        "Aggressor Squad",
+        "Heavy Intercessor Squad",
+        "Indomitor Kill Team"
+      ],
+      "bonuses": [
+        {
+          "name": "Strategic Acumen",
+          "text": "Select one combat doctrine to be active for this unit until the start of your next Command phase.",
+          "condition": "Your Command phase",
+          "stacking": false
+        },
+        {
+          "name": "Refuse to Yield",
+          "text": "Attacks allocated to this model have -1 D.",
+          "condition": "",
+          "stacking": false
+        }
+      ]
+    },
+    {
+      "id": "000002773",
+      "name": "Apothecary",
+      "kind": "support",
+      "sourceRef": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Apothecary",
+      "excerpt": "You can attach this model to one of the above units even if one CAPTAIN, CHAPTER MASTER or LIEUTENANT model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
+      "leadsTo": [
+        "000003698",
+        "000000071",
+        "000001606"
+      ],
+      "leadsToOtherNames": [
+        "Deathwatch Veterans",
+        "Company Heroes",
+        "Desolation Squad",
+        "Decimus Kill Team",
+        "Sword Brethren Squad",
+        "Crusader Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Fortis Kill Team",
+        "Infernus Squad",
+        "Hellblaster Squad"
+      ],
+      "bonuses": [
+        {
+          "name": "Narthecium",
+          "text": "In your Command phase, this unit heals D3+1 wounds.",
+          "condition": "Your Command phase",
+          "stacking": false
+        }
+      ]
+    },
+    {
+      "id": "000000060",
+      "name": "Apothecary Biologis",
+      "kind": "support",
+      "sourceRef": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Apothecary-Biologis",
+      "excerpt": "You can attach this model to one of the above units even if one CAPTAIN, CHAPTER MASTER or LIEUTENANT model has already been attached to it.",
+      "leadsTo": [
+        "000004249",
+        "000004231"
+      ],
+      "leadsToOtherNames": [
+        "Aggressor Squad",
+        "Heavy Intercessor Squad",
+        "Indomitor Kill Team"
+      ],
+      "bonuses": [
+        {
+          "name": "Vivispectral Analysis Targeting",
+          "text": "This unit’s attacks have [Lethal Hits: non-Vehicle].",
+          "condition": "",
+          "stacking": false
+        }
+      ]
+    },
+    {
+      "id": "000001165",
+      "name": "Bladeguard Ancient",
+      "kind": "support",
+      "sourceRef": "https://wahapedia.ru/wh40k11ed/factions/space-marines/Bladeguard-Ancient",
+      "excerpt": "You can attach this model to one of the above units even if one CAPTAIN, CHAPTER MASTER or LIEUTENANT model has already been attached to it.",
+      "leadsTo": [
+        "000000071"
+      ],
+      "leadsToOtherNames": [],
+      "bonuses": [
+        {
+          "name": "Deeds of Legend",
+          "text": "While this unit is within range of an objective, this unit’s melee attacks have +1 A.",
+          "condition": "Within range of an objective",
+          "stacking": false
+        },
+        {
+          "name": "Raise the Banner",
+          "text": "At the end of your Movement phase, if this unit is controlling an objective, that objective is secured.",
+          "condition": "End of your Movement phase",
+          "stacking": false
+        }
+      ]
+    }
+  ],
+  "nonLeaders": [
+    {
+      "id": "000002682",
+      "name": "Lion El’jonson",
+      "reason": "Monster Epic Hero : aucune règle Leader dans sa fiche 11e (vérifié dans le snapshot Datasheets_leader.csv et Datasheets_abilities.csv)."
+    },
+    {
+      "id": "000000856",
+      "name": "Knight Errant",
+      "reason": "Imperial Knights : faction distincte, aucune règle Leader dans sa fiche 11e."
+    },
+    {
+      "id": "000002717",
+      "name": "Redemptor Dreadnought",
+      "reason": "Walker : ne peut ni mener ni être mené."
+    },
+    {
+      "id": "000000231",
+      "name": "Deathwing Knights",
+      "reason": "Unité de bodyguard potentielle, mais aucun personnage de la liste fournie ne peut actuellement l'attacher."
+    }
+  ],
+  "options": {
+    "000000218": {
+      "groups": []
+    },
+    "000000225": {
+      "groups": []
+    },
+    "000002682": {
+      "groups": []
+    },
+    "000001606": {
+      "groups": [
+        {
+          "id": "ais-pistol",
+          "label": "Pistolet du sergent",
+          "scope": "perModel",
+          "mode": "single",
+          "min": 0,
+          "max": 1,
+          "targetModel": "Assault Intercessor Sergeant",
+          "choices": [
+            {
+              "id": "default",
+              "label": "Heavy Bolt Pistol",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Heavy Bolt Pistol"
+              ],
+              "removes": [],
+              "note": "Armement de départ"
+            },
+            {
+              "id": "hand-flamer",
+              "label": "Hand Flamer",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Hand Flamer"
+              ],
+              "removes": [
+                "Heavy Bolt Pistol"
+              ],
+              "note": ""
+            },
+            {
+              "id": "plasma-pistol",
+              "label": "Plasma Pistol",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Plasma Pistol"
+              ],
+              "removes": [
+                "Heavy Bolt Pistol"
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "ais-melee",
+          "label": "Arme de corps du sergent",
+          "scope": "perModel",
+          "mode": "single",
+          "min": 0,
+          "max": 1,
+          "targetModel": "Assault Intercessor Sergeant",
+          "choices": [
+            {
+              "id": "default",
+              "label": "Chainsword",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Chainsword"
+              ],
+              "removes": [],
+              "note": "Armement de départ"
+            },
+            {
+              "id": "power-fist",
+              "label": "Power Fist",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Power Fist"
+              ],
+              "removes": [
+                "Chainsword"
+              ],
+              "note": ""
+            },
+            {
+              "id": "power-weapon",
+              "label": "Power Weapon",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Power Weapon"
+              ],
+              "removes": [
+                "Chainsword"
+              ],
+              "note": ""
+            },
+            {
+              "id": "thunder-hammer",
+              "label": "Thunder Hammer",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Thunder Hammer"
+              ],
+              "removes": [
+                "Chainsword"
+              ],
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    "000002717": {
+      "groups": [
+        {
+          "id": "redemptor-icarus",
+          "label": "Icarus Rocket Pod",
+          "scope": "perUnit",
+          "mode": "multi",
+          "min": 0,
+          "max": 1,
+          "maxTakes": 1,
+          "choices": [
+            {
+              "id": "icarus",
+              "label": "Icarus Rocket Pod",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Icarus Rocket Pod"
+              ],
+              "removes": [],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "redemptor-storm-bolters",
+          "label": "Fragstorm Grenade Launchers → Storm Bolters",
+          "scope": "perUnit",
+          "mode": "multi",
+          "min": 0,
+          "max": 1,
+          "maxTakes": 1,
+          "choices": [
+            {
+              "id": "storm-bolters",
+              "label": "Storm Bolters",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Storm Bolters"
+              ],
+              "removes": [
+                "Fragstorm Grenade Launchers"
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "redemptor-gatling",
+          "label": "Heavy Flamer → Onslaught Gatling Cannon",
+          "scope": "perUnit",
+          "mode": "multi",
+          "min": 0,
+          "max": 1,
+          "maxTakes": 1,
+          "choices": [
+            {
+              "id": "onslaught",
+              "label": "Onslaught Gatling Cannon",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Onslaught Gatling Cannon"
+              ],
+              "removes": [
+                "Heavy Flamer"
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "redemptor-plasma",
+          "label": "Heavy Onslaught Gatling Cannon → Macro Plasma Incinerator",
+          "scope": "perUnit",
+          "mode": "multi",
+          "min": 0,
+          "max": 1,
+          "maxTakes": 1,
+          "choices": [
+            {
+              "id": "macro-plasma",
+              "label": "Macro Plasma Incinerator",
+              "cost": 10,
+              "costMode": "flat",
+              "grants": [
+                "Macro Plasma Incinerator"
+              ],
+              "removes": [
+                "Heavy Onslaught Gatling Cannon"
+              ],
+              "note": "+10 pts (WARGEAR OPTIONS)"
+            }
+          ]
+        }
+      ]
+    },
+    "000003698": {
+      "groups": []
+    },
+    "000002707": {
+      "groups": []
+    },
+    "000000231": {
+      "groups": [
+        {
+          "id": "dwk-watcher",
+          "label": "Watcher in the Dark",
+          "scope": "perUnit",
+          "mode": "multi",
+          "min": 0,
+          "max": 1,
+          "maxTakes": 1,
+          "choices": [
+            {
+              "id": "watcher",
+              "label": "Watcher in the Dark",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Watcher in the Dark"
+              ],
+              "removes": [],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "dwk-relic-weapon",
+          "label": "Arme du Knight Master",
+          "scope": "perModel",
+          "mode": "single",
+          "min": 0,
+          "max": 1,
+          "targetModel": "Knight Master",
+          "choices": [
+            {
+              "id": "default",
+              "label": "Great Weapon of the Unforgiven",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Great Weapon of the Unforgiven"
+              ],
+              "removes": [],
+              "note": "Armement de départ"
+            },
+            {
+              "id": "relic",
+              "label": "Relic Weapon",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Relic Weapon"
+              ],
+              "removes": [
+                "Great Weapon of the Unforgiven"
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "dwk-power-weapon",
+          "label": "Mace of Absolution → Power Weapon",
+          "scope": "perModel",
+          "mode": "multi",
+          "min": 0,
+          "max": 1,
+          "maxTakes": 1,
+          "choices": [
+            {
+              "id": "power-weapon",
+              "label": "Power Weapon",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Power Weapon"
+              ],
+              "removes": [
+                "Mace of Absolution"
+              ],
+              "note": "Tous les Deathwing Knights de l'unité"
+            }
+          ]
+        }
+      ]
+    },
+    "000001172": {
+      "groups": [
+        {
+          "id": "gravis-captain-weapons",
+          "label": "Armement du capitaine",
+          "scope": "perModel",
+          "mode": "single",
+          "min": 0,
+          "max": 1,
+          "choices": [
+            {
+              "id": "default",
+              "label": "Master-crafted Heavy Bolt Rifle + Master-crafted Power Weapon",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Master-crafted Heavy Bolt Rifle",
+                "Master-crafted Power Weapon"
+              ],
+              "removes": [],
+              "note": "Armement de départ"
+            },
+            {
+              "id": "relic-blade",
+              "label": "Boltstorm Gauntlet + Relic Blade",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Boltstorm Gauntlet",
+                "Relic Blade"
+              ],
+              "removes": [
+                "Master-crafted Heavy Bolt Rifle",
+                "Master-crafted Power Weapon"
+              ],
+              "note": ""
+            },
+            {
+              "id": "relic-chainsword",
+              "label": "Boltstorm Gauntlet + Relic Chainsword",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Boltstorm Gauntlet",
+                "Relic Chainsword"
+              ],
+              "removes": [
+                "Master-crafted Heavy Bolt Rifle",
+                "Master-crafted Power Weapon"
+              ],
+              "note": ""
+            },
+            {
+              "id": "relic-power-fist",
+              "label": "Boltstorm Gauntlet + Relic Power Fist",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Boltstorm Gauntlet",
+                "Relic Power Fist"
+              ],
+              "removes": [
+                "Master-crafted Heavy Bolt Rifle",
+                "Master-crafted Power Weapon"
+              ],
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    "000001174": {
+      "groups": []
+    },
+    "000004231": {
+      "groups": []
+    },
+    "000004249": {
+      "groups": [
+        {
+          "id": "eradicator-multi-melta",
+          "label": "Melta Rifle → Multi-melta",
+          "scope": "perModel",
+          "mode": "multi",
+          "min": 0,
+          "max": 2,
+          "maxTakesPerModels": 3,
+          "choices": [
+            {
+              "id": "multi-melta",
+              "label": "1 Multi-melta",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Multi-melta"
+              ],
+              "removes": [
+                "Melta Rifle"
+              ],
+              "note": "1 modèle par tranche de 3 dans l'unité"
+            },
+            {
+              "id": "multi-melta-2",
+              "label": "2 Multi-meltas",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Multi-melta"
+              ],
+              "removes": [
+                "Melta Rifle"
+              ],
+              "duplicate": true,
+              "requires": [
+                "multi-melta"
+              ],
+              "note": "Nécessite le premier Multi-melta"
+            }
+          ]
+        }
+      ]
+    },
+    "000000071": {
+      "groups": [
+        {
+          "id": "bgv-pistol",
+          "label": "Pistolet du sergent",
+          "scope": "perModel",
+          "mode": "single",
+          "min": 0,
+          "max": 1,
+          "targetModel": "Bladeguard Veteran Sergeant",
+          "choices": [
+            {
+              "id": "default",
+              "label": "Heavy Bolt Pistol",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Heavy Bolt Pistol"
+              ],
+              "removes": [],
+              "note": "Armement de départ"
+            },
+            {
+              "id": "neo-volkite",
+              "label": "Neo-volkite Pistol",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Neo-volkite Pistol"
+              ],
+              "removes": [
+                "Heavy Bolt Pistol"
+              ],
+              "note": ""
+            },
+            {
+              "id": "plasma-pistol",
+              "label": "Plasma Pistol",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Plasma Pistol"
+              ],
+              "removes": [
+                "Heavy Bolt Pistol"
+              ],
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    "000001165": {
+      "groups": []
+    },
+    "000002773": {
+      "groups": []
+    },
+    "000000060": {
+      "groups": []
+    },
+    "000000856": {
+      "groups": [
+        {
+          "id": "knight-stubber",
+          "label": "Meltagun → Questoris heavy stubber",
+          "scope": "perUnit",
+          "mode": "multi",
+          "min": 0,
+          "max": 1,
+          "maxTakes": 1,
+          "choices": [
+            {
+              "id": "stubber",
+              "label": "Questoris heavy stubber",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "Questoris heavy stubber"
+              ],
+              "removes": [
+                "meltagun"
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "knight-gauntlet",
+          "label": "Reaper chainsword → Thunderstrike gauntlet",
+          "scope": "perUnit",
+          "mode": "multi",
+          "min": 0,
+          "max": 1,
+          "maxTakes": 1,
+          "choices": [
+            {
+              "id": "gauntlet",
+              "label": "thunderstrike gauntlet",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "thunderstrike gauntlet"
+              ],
+              "removes": [
+                "reaper chainsword"
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "knight-heavy",
+          "label": "Arme lourde",
+          "scope": "perUnit",
+          "mode": "single",
+          "min": 0,
+          "max": 1,
+          "choices": [
+            {
+              "id": "none",
+              "label": "Aucune",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [],
+              "removes": [],
+              "note": "Armement de départ"
+            },
+            {
+              "id": "ironstorm",
+              "label": "ironstorm missile pod",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "ironstorm missile pod"
+              ],
+              "removes": [],
+              "note": ""
+            },
+            {
+              "id": "stormspear",
+              "label": "stormspear rocket pod",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "stormspear rocket pod"
+              ],
+              "removes": [],
+              "note": ""
+            },
+            {
+              "id": "twin-icarus",
+              "label": "twin Icarus autocannon",
+              "cost": 0,
+              "costMode": "flat",
+              "grants": [
+                "twin Icarus autocannon"
+              ],
+              "removes": [],
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
